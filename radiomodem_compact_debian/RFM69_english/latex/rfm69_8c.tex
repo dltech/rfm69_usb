@@ -1,0 +1,200 @@
+\hypertarget{rfm69_8c}{\section{Файл rfm69.\+c}
+\label{rfm69_8c}\index{rfm69.\+c@{rfm69.\+c}}
+}
+{\ttfamily \#include \char`\"{}stm32f10x\+\_\+conf.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}rfm69.\+h\char`\"{}}\\*
+Граф включаемых заголовочных файлов для rfm69.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=265pt]{rfm69_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{rfm69_8c_ab5a1d9e9c8ef50e0cb9ddb5745a20a14}{E\+X\+T\+I2\+\_\+\+I\+R\+Q\+Handler} (void)
+\item 
+void \hyperlink{rfm69_8c_a49cfdd46eb8d0ef3e1987514aa9343dc}{E\+X\+T\+I1\+\_\+\+I\+R\+Q\+Handler} (void)
+\item 
+void \hyperlink{rfm69_8c_a17e9789a29a87d2df54f12b94dd1a0b6}{E\+X\+T\+I0\+\_\+\+I\+R\+Q\+Handler} (void)
+\item 
+void \hyperlink{rfm69_8c_a38ad4725462bdc5e86c4ead4f04b9fc2}{T\+I\+M2\+\_\+\+I\+R\+Q\+Handler} (void)
+\item 
+void \hyperlink{rfm69_8c_a14af22393b087d109032f1cf718def90}{rfm69\+\_\+write} (uint8\+\_\+t address, uint8\+\_\+t data)
+\item 
+uint8\+\_\+t \hyperlink{rfm69_8c_ad2ff4e053c9b555d2192ba3f9af9f5f9}{rfm69\+\_\+read} (uint8\+\_\+t address)
+\item 
+void \hyperlink{rfm69_8c_af8adfd3a25fb7fd945fe54b25584f391}{rfm69\+\_\+write\+\_\+burst} (uint8\+\_\+t address, uint8\+\_\+t $\ast$data, uint8\+\_\+t ndata)
+\item 
+void \hyperlink{rfm69_8c_aaf29915020979cbcb1543723e0d1ad09}{rfm69\+\_\+read\+\_\+burst} (uint8\+\_\+t address, uint8\+\_\+t $\ast$data, uint8\+\_\+t ndata)
+\item 
+void \hyperlink{rfm69_8c_afc18010357577c61751d565f276ec047}{rfm69\+\_\+mcu\+\_\+init} (void)
+\item 
+int \hyperlink{rfm69_8c_afc9264ee91effa67d4c368944cd2f8a3}{rfm69\+\_\+init} (void)
+\item 
+int \hyperlink{rfm69_8c_a3141c4360d11844a68888053a7173c2a}{rfm69\+\_\+transmit\+\_\+start} (uint8\+\_\+t packet\+\_\+size\+\_\+loc, uint8\+\_\+t address)
+\item 
+void \hyperlink{rfm69_8c_a3c042a6544571244615b711a6e7550c7}{rfm69\+\_\+receive\+\_\+start} (void)
+\item 
+int \hyperlink{rfm69_8c_ac20aaa7a3c508b5086719841909aa059}{rfm69\+\_\+receive\+\_\+small\+\_\+packet} (void)
+\item 
+void \hyperlink{rfm69_8c_a91f032713bffeee705aeff45e4e8ecbc}{rfm69\+\_\+sleep} (void)
+\item 
+void \hyperlink{rfm69_8c_a76b7b034cdcbc1d12611ad48a3cfe623}{rfm69\+\_\+stby} (void)
+\item 
+void \hyperlink{rfm69_8c_a676f160363c34f0bf2638dded13638d7}{rfm69\+\_\+clear\+\_\+fifo} (void)
+\end{DoxyCompactItemize}
+\subsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+uint8\+\_\+t \hyperlink{rfm69_8c_a0faa461f58d383df212724c389b98a49}{packet\+\_\+buffer} \mbox{[}64\mbox{]}
+\item 
+uint8\+\_\+t \hyperlink{rfm69_8c_a7f29a961561c7582c38f9a09d859f0a3}{rfm69\+\_\+condition}
+\item 
+uint8\+\_\+t \hyperlink{rfm69_8c_aee3ef59ff651fe7e6a9c273affdd5d5a}{packet\+\_\+size}
+\item 
+uint8\+\_\+t \hyperlink{rfm69_8c_a73cc4d50c6a22bbf6aa7481ebd4f8e91}{internal\+\_\+packet\+\_\+buffer} \mbox{[}64\mbox{]}
+\item 
+uint8\+\_\+t \hyperlink{rfm69_8c_a6c93468e672fcac11316905595027087}{internal\+\_\+pack\+\_\+size}
+\end{DoxyCompactItemize}
+
+
+\subsection{Функции}
+\hypertarget{rfm69_8c_a17e9789a29a87d2df54f12b94dd1a0b6}{\index{rfm69.\+c@{rfm69.\+c}!E\+X\+T\+I0\+\_\+\+I\+R\+Q\+Handler@{E\+X\+T\+I0\+\_\+\+I\+R\+Q\+Handler}}
+\index{E\+X\+T\+I0\+\_\+\+I\+R\+Q\+Handler@{E\+X\+T\+I0\+\_\+\+I\+R\+Q\+Handler}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{E\+X\+T\+I0\+\_\+\+I\+R\+Q\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}void E\+X\+T\+I0\+\_\+\+I\+R\+Q\+Handler (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_a17e9789a29a87d2df54f12b94dd1a0b6}
+\hypertarget{rfm69_8c_a49cfdd46eb8d0ef3e1987514aa9343dc}{\index{rfm69.\+c@{rfm69.\+c}!E\+X\+T\+I1\+\_\+\+I\+R\+Q\+Handler@{E\+X\+T\+I1\+\_\+\+I\+R\+Q\+Handler}}
+\index{E\+X\+T\+I1\+\_\+\+I\+R\+Q\+Handler@{E\+X\+T\+I1\+\_\+\+I\+R\+Q\+Handler}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{E\+X\+T\+I1\+\_\+\+I\+R\+Q\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}void E\+X\+T\+I1\+\_\+\+I\+R\+Q\+Handler (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_a49cfdd46eb8d0ef3e1987514aa9343dc}
+\hypertarget{rfm69_8c_ab5a1d9e9c8ef50e0cb9ddb5745a20a14}{\index{rfm69.\+c@{rfm69.\+c}!E\+X\+T\+I2\+\_\+\+I\+R\+Q\+Handler@{E\+X\+T\+I2\+\_\+\+I\+R\+Q\+Handler}}
+\index{E\+X\+T\+I2\+\_\+\+I\+R\+Q\+Handler@{E\+X\+T\+I2\+\_\+\+I\+R\+Q\+Handler}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{E\+X\+T\+I2\+\_\+\+I\+R\+Q\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}void E\+X\+T\+I2\+\_\+\+I\+R\+Q\+Handler (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_ab5a1d9e9c8ef50e0cb9ddb5745a20a14}
+\hypertarget{rfm69_8c_a676f160363c34f0bf2638dded13638d7}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+clear\+\_\+fifo@{rfm69\+\_\+clear\+\_\+fifo}}
+\index{rfm69\+\_\+clear\+\_\+fifo@{rfm69\+\_\+clear\+\_\+fifo}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+clear\+\_\+fifo}]{\setlength{\rightskip}{0pt plus 5cm}void rfm69\+\_\+clear\+\_\+fifo (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_a676f160363c34f0bf2638dded13638d7}
+\hypertarget{rfm69_8c_afc9264ee91effa67d4c368944cd2f8a3}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+init@{rfm69\+\_\+init}}
+\index{rfm69\+\_\+init@{rfm69\+\_\+init}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+init}]{\setlength{\rightskip}{0pt plus 5cm}int rfm69\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_afc9264ee91effa67d4c368944cd2f8a3}
+\hypertarget{rfm69_8c_afc18010357577c61751d565f276ec047}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+mcu\+\_\+init@{rfm69\+\_\+mcu\+\_\+init}}
+\index{rfm69\+\_\+mcu\+\_\+init@{rfm69\+\_\+mcu\+\_\+init}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+mcu\+\_\+init}]{\setlength{\rightskip}{0pt plus 5cm}void rfm69\+\_\+mcu\+\_\+init (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_afc18010357577c61751d565f276ec047}
+\hypertarget{rfm69_8c_ad2ff4e053c9b555d2192ba3f9af9f5f9}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+read@{rfm69\+\_\+read}}
+\index{rfm69\+\_\+read@{rfm69\+\_\+read}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+read}]{\setlength{\rightskip}{0pt plus 5cm}uint8\+\_\+t rfm69\+\_\+read (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{address}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_ad2ff4e053c9b555d2192ba3f9af9f5f9}
+\hypertarget{rfm69_8c_aaf29915020979cbcb1543723e0d1ad09}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+read\+\_\+burst@{rfm69\+\_\+read\+\_\+burst}}
+\index{rfm69\+\_\+read\+\_\+burst@{rfm69\+\_\+read\+\_\+burst}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+read\+\_\+burst}]{\setlength{\rightskip}{0pt plus 5cm}void rfm69\+\_\+read\+\_\+burst (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{address, }
+\item[{uint8\+\_\+t $\ast$}]{data, }
+\item[{uint8\+\_\+t}]{ndata}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_aaf29915020979cbcb1543723e0d1ad09}
+\hypertarget{rfm69_8c_ac20aaa7a3c508b5086719841909aa059}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+receive\+\_\+small\+\_\+packet@{rfm69\+\_\+receive\+\_\+small\+\_\+packet}}
+\index{rfm69\+\_\+receive\+\_\+small\+\_\+packet@{rfm69\+\_\+receive\+\_\+small\+\_\+packet}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+receive\+\_\+small\+\_\+packet}]{\setlength{\rightskip}{0pt plus 5cm}int rfm69\+\_\+receive\+\_\+small\+\_\+packet (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_ac20aaa7a3c508b5086719841909aa059}
+\hypertarget{rfm69_8c_a3c042a6544571244615b711a6e7550c7}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+receive\+\_\+start@{rfm69\+\_\+receive\+\_\+start}}
+\index{rfm69\+\_\+receive\+\_\+start@{rfm69\+\_\+receive\+\_\+start}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+receive\+\_\+start}]{\setlength{\rightskip}{0pt plus 5cm}void rfm69\+\_\+receive\+\_\+start (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_a3c042a6544571244615b711a6e7550c7}
+\hypertarget{rfm69_8c_a91f032713bffeee705aeff45e4e8ecbc}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+sleep@{rfm69\+\_\+sleep}}
+\index{rfm69\+\_\+sleep@{rfm69\+\_\+sleep}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+sleep}]{\setlength{\rightskip}{0pt plus 5cm}void rfm69\+\_\+sleep (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_a91f032713bffeee705aeff45e4e8ecbc}
+\hypertarget{rfm69_8c_a76b7b034cdcbc1d12611ad48a3cfe623}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+stby@{rfm69\+\_\+stby}}
+\index{rfm69\+\_\+stby@{rfm69\+\_\+stby}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+stby}]{\setlength{\rightskip}{0pt plus 5cm}void rfm69\+\_\+stby (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_a76b7b034cdcbc1d12611ad48a3cfe623}
+\hypertarget{rfm69_8c_a3141c4360d11844a68888053a7173c2a}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+transmit\+\_\+start@{rfm69\+\_\+transmit\+\_\+start}}
+\index{rfm69\+\_\+transmit\+\_\+start@{rfm69\+\_\+transmit\+\_\+start}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+transmit\+\_\+start}]{\setlength{\rightskip}{0pt plus 5cm}int rfm69\+\_\+transmit\+\_\+start (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{packet\+\_\+size\+\_\+loc, }
+\item[{uint8\+\_\+t}]{address}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_a3141c4360d11844a68888053a7173c2a}
+\hypertarget{rfm69_8c_a14af22393b087d109032f1cf718def90}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+write@{rfm69\+\_\+write}}
+\index{rfm69\+\_\+write@{rfm69\+\_\+write}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+write}]{\setlength{\rightskip}{0pt plus 5cm}void rfm69\+\_\+write (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{address, }
+\item[{uint8\+\_\+t}]{data}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_a14af22393b087d109032f1cf718def90}
+\hypertarget{rfm69_8c_af8adfd3a25fb7fd945fe54b25584f391}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+write\+\_\+burst@{rfm69\+\_\+write\+\_\+burst}}
+\index{rfm69\+\_\+write\+\_\+burst@{rfm69\+\_\+write\+\_\+burst}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+write\+\_\+burst}]{\setlength{\rightskip}{0pt plus 5cm}void rfm69\+\_\+write\+\_\+burst (
+\begin{DoxyParamCaption}
+\item[{uint8\+\_\+t}]{address, }
+\item[{uint8\+\_\+t $\ast$}]{data, }
+\item[{uint8\+\_\+t}]{ndata}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_af8adfd3a25fb7fd945fe54b25584f391}
+\hypertarget{rfm69_8c_a38ad4725462bdc5e86c4ead4f04b9fc2}{\index{rfm69.\+c@{rfm69.\+c}!T\+I\+M2\+\_\+\+I\+R\+Q\+Handler@{T\+I\+M2\+\_\+\+I\+R\+Q\+Handler}}
+\index{T\+I\+M2\+\_\+\+I\+R\+Q\+Handler@{T\+I\+M2\+\_\+\+I\+R\+Q\+Handler}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{T\+I\+M2\+\_\+\+I\+R\+Q\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}void T\+I\+M2\+\_\+\+I\+R\+Q\+Handler (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{rfm69_8c_a38ad4725462bdc5e86c4ead4f04b9fc2}
+
+
+\subsection{Переменные}
+\hypertarget{rfm69_8c_a6c93468e672fcac11316905595027087}{\index{rfm69.\+c@{rfm69.\+c}!internal\+\_\+pack\+\_\+size@{internal\+\_\+pack\+\_\+size}}
+\index{internal\+\_\+pack\+\_\+size@{internal\+\_\+pack\+\_\+size}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{internal\+\_\+pack\+\_\+size}]{\setlength{\rightskip}{0pt plus 5cm}uint8\+\_\+t internal\+\_\+pack\+\_\+size}}\label{rfm69_8c_a6c93468e672fcac11316905595027087}
+\hypertarget{rfm69_8c_a73cc4d50c6a22bbf6aa7481ebd4f8e91}{\index{rfm69.\+c@{rfm69.\+c}!internal\+\_\+packet\+\_\+buffer@{internal\+\_\+packet\+\_\+buffer}}
+\index{internal\+\_\+packet\+\_\+buffer@{internal\+\_\+packet\+\_\+buffer}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{internal\+\_\+packet\+\_\+buffer}]{\setlength{\rightskip}{0pt plus 5cm}uint8\+\_\+t internal\+\_\+packet\+\_\+buffer\mbox{[}64\mbox{]}}}\label{rfm69_8c_a73cc4d50c6a22bbf6aa7481ebd4f8e91}
+\hypertarget{rfm69_8c_a0faa461f58d383df212724c389b98a49}{\index{rfm69.\+c@{rfm69.\+c}!packet\+\_\+buffer@{packet\+\_\+buffer}}
+\index{packet\+\_\+buffer@{packet\+\_\+buffer}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{packet\+\_\+buffer}]{\setlength{\rightskip}{0pt plus 5cm}uint8\+\_\+t packet\+\_\+buffer\mbox{[}64\mbox{]}}}\label{rfm69_8c_a0faa461f58d383df212724c389b98a49}
+\hypertarget{rfm69_8c_aee3ef59ff651fe7e6a9c273affdd5d5a}{\index{rfm69.\+c@{rfm69.\+c}!packet\+\_\+size@{packet\+\_\+size}}
+\index{packet\+\_\+size@{packet\+\_\+size}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{packet\+\_\+size}]{\setlength{\rightskip}{0pt plus 5cm}uint8\+\_\+t packet\+\_\+size}}\label{rfm69_8c_aee3ef59ff651fe7e6a9c273affdd5d5a}
+\hypertarget{rfm69_8c_a7f29a961561c7582c38f9a09d859f0a3}{\index{rfm69.\+c@{rfm69.\+c}!rfm69\+\_\+condition@{rfm69\+\_\+condition}}
+\index{rfm69\+\_\+condition@{rfm69\+\_\+condition}!rfm69.\+c@{rfm69.\+c}}
+\subsubsection[{rfm69\+\_\+condition}]{\setlength{\rightskip}{0pt plus 5cm}uint8\+\_\+t rfm69\+\_\+condition}}\label{rfm69_8c_a7f29a961561c7582c38f9a09d859f0a3}

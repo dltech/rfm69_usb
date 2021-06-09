@@ -1,0 +1,430 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>RFM69: Исходный файл rfm69_registers.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">RFM69
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Макросы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">rfm69_registers.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="rfm69__registers_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef RFM69_REGISTERS_H_INCLUDED</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define RFM69_REGISTERS_H_INCLUDED</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="rfm69__table_8h.html">rfm69_table.h</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="rfm69_8h.html">rfm69.h</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">/***********************************************************/</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/* This file contains register addresses and descriptions  */</span> </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">/***********************************************************/</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a20ec1927b7f8bef2f0e096b2e241d749">   11</a></span>&#160;<span class="preprocessor">#define REGFIFO             0x00</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a725aadf224f762f20fd93bfc3edcbb76">   12</a></span>&#160;<span class="preprocessor">#define REGOPMODE           0x01</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ad34e500db60585f5c256b04bd898ebba">   14</a></span>&#160;<span class="preprocessor">#define SEQUENCEROFF    7   // if 0 - sequencer is on</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ac873ed4655b1b8770ef2994e5c02c5d7">   15</a></span>&#160;<span class="preprocessor">#define LISTENON        6   // if 1 - listen mode is on</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4f6f5d1b390ad4a277eade9bb426bfa2">   16</a></span>&#160;<span class="preprocessor">#define LISTENABORT     5</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aca1f7e0907b7f07b7ea6ddbe8fac6ac5">   18</a></span>&#160;<span class="preprocessor">#define RX_MODE         0x10</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a60bcaae69589922d624e3a7c1cedd686">   19</a></span>&#160;<span class="preprocessor">#define TX_MODE         0x0c</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a03829d3a0bcb79ea69d359c0e23b7a43">   20</a></span>&#160;<span class="preprocessor">#define FS_MODE         0x08</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a706e8f23c905d8e9c63fe75c5a74d462">   21</a></span>&#160;<span class="preprocessor">#define STBY_MODE       0x04</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a6097218fc13c9936e96507d6fd9fafe0">   22</a></span>&#160;<span class="preprocessor">#define SLEEP_MODE      0x00</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a11e8550da335f8b4ae8b85c5c2db4921">   24</a></span>&#160;<span class="preprocessor">#define REGDATAMODUL        0x02</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ac08f2c3736cc23fc9d36d95d4f6a205f">   26</a></span>&#160;<span class="preprocessor">#define CONT_MODE       0x60    // continuous mode without bit synchronizer</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a720d690ab49854e6eb434d2c2ede8e24">   27</a></span>&#160;<span class="preprocessor">#define CONT_SYNCH_MODE 0x40    // continuous mode with bit synchronizer</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a366d2e1ca64909f289bde16361b6fd07">   28</a></span>&#160;<span class="preprocessor">#define PACKET_MODE     0x00    // packet mode</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">//#define   OOK             0x08    // OOK modulation (commented to avoid redefine)</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">//#define   FSK             0x00    // FSK modulation (commented to avoid redefine)</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ab69783dc911fb5e872ee21543a3bc23f">   33</a></span>&#160;<span class="preprocessor">#define GAUSS_BT03      0x03    // Gaussian filter, BT = 0.3, when FSK is on</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a2fa9dc5e3fc4742b46551703ba1c9500">   34</a></span>&#160;<span class="preprocessor">#define GAUSS_BT05      0x02    // Gaussian filter, BT = 0.3, when FSK is on</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4a70bc27906df4705fba032b0bcec59b">   35</a></span>&#160;<span class="preprocessor">#define GAUSS_BT10      0x01    // Gaussian filter, BT = 0.3, when FSK is on</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4ce846d2651bdbbabc166ea0603902d6">   36</a></span>&#160;<span class="preprocessor">#define NO_SHAPING      0x00    // no Tx data shaping   </span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a097e1638f022624c30fb2a99e2230325">   38</a></span>&#160;<span class="preprocessor">#define REGBITRATEMSB       0x03</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a8a8aeb284eaba32c7f413543988d8fde">   39</a></span>&#160;<span class="preprocessor">#define REGBITRATELSB       0x04</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ac1ae7970d0dcf267a7a5ca51687d97fe">   41</a></span>&#160;<span class="preprocessor">#define BITRATE_CALC(br_par)    FXOSC/(br_par)      // macro for calculating bitrate </span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a61b5340a670344fef34a246193f7260a">   43</a></span>&#160;<span class="preprocessor">#define REGFDEVMSB          0x05</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a0fde08a8331c90bb87675ed0f5c694d7">   44</a></span>&#160;<span class="preprocessor">#define REGFDEVLSB          0x06</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a77666bfe5e6e90bb35003fa957f9ec6f">   46</a></span>&#160;<span class="preprocessor">#define FDEV_CALC(fdev_par)     (fdev_par)/FSTEP    // macro for calculating deviation frequency</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a2d4455b84d3bb31e9037664d84114c26">   48</a></span>&#160;<span class="preprocessor">#define REGFRFMSB           0x07</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a09a33074e73ae38230fec3a5783395a9">   49</a></span>&#160;<span class="preprocessor">#define REGFRFMID           0x08</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a6dd2f58496f2d15c8a0a388f75301023">   50</a></span>&#160;<span class="preprocessor">#define REGFRFLSB           0x09</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae902e7a3545149f07d33ebeea9e3ba11">   52</a></span>&#160;<span class="preprocessor">#define FRF_CALC(frf_par)       (frf_par)/FSTEP     // macro for calculating carrier frequency</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a9ab2d8a0684900022d9a84ff558ee5e2">   54</a></span>&#160;<span class="preprocessor">#define REGOSC1             0x0a</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae462be44633b786c55de7007403a379f">   56</a></span>&#160;<span class="preprocessor">#define RCCALSTART      7   // set this bit to start calibration process of the RC oscillator, RC calibration must be triggered in standby mode</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a8922110741ed3478468f73162cfc1a6d">   57</a></span>&#160;<span class="preprocessor">#define RCCALDONE       6   // read 0 if RC calibration in progress, read 0 if calibration is over</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a9b83d33f4777a793bd16609f717b7082">   59</a></span>&#160;<span class="preprocessor">#define REGAFCCTRL          0x0b</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ad5d2eba8b4963a97848a746ba9094346">   61</a></span>&#160;<span class="preprocessor">#define AFCLOWBETAON    5   // if 1 - improved AFC routine is on, if 0 - standard AFC routine is on</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a71306bd3eec974fa3ada43b3e2dbdd35">   63</a></span>&#160;<span class="preprocessor">#define REGLISTEN1          0x0d</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a57f032180697bcacf5b20f7a38af99a3">   65</a></span>&#160;<span class="preprocessor">#define LISTENIDLE262M  0xc0</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a5b70af578773aa3acd705cf6d85498f6">   66</a></span>&#160;<span class="preprocessor">#define LISTENIDLE4M1   0x80</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a3b3e093a7843affae6faf2bbcc739be5">   67</a></span>&#160;<span class="preprocessor">#define LISTENIDLE64U   0x40</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a6cb137d5e823989e7689476ea73a5cc2">   69</a></span>&#160;<span class="preprocessor">#define LISTENRX262M    0x30</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a58f75f5c4cedd4218ef0dc5c04a64126">   70</a></span>&#160;<span class="preprocessor">#define LISTENRX4M1     0x20</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a2f45a4ab81593661a3292463c086458e">   71</a></span>&#160;<span class="preprocessor">#define LISTENRX64U     0x10</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a0b72ec5c1408de14cd281ad7ee3d0c19">   73</a></span>&#160;<span class="preprocessor">#define LISTENCRITERIA  3</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a8115466d2e70941b52432eee7a51d4f4">   75</a></span>&#160;<span class="preprocessor">#define LISTENEND1      0x00</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a1883b06541fa927c7aeab7074de4f209">   76</a></span>&#160;<span class="preprocessor">#define LISTENEND2      0x02</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae80469e5b55ea62811140ba203331c18">   77</a></span>&#160;<span class="preprocessor">#define LISTENEND3      0x04</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a9ddae3ddaa84bf43fa2d22d9b7ff982f">   78</a></span>&#160;<span class="preprocessor">#define LISTENEND4      0x06</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a0578317a8618587883d8b137310fdc44">   80</a></span>&#160;<span class="preprocessor">#define REGLISTEN2          0x0e</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a591993b8a74af8cc8a56baa3aa0880ee">   81</a></span>&#160;<span class="preprocessor">#define REGLISTEN3          0x0f    </span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ac7860f81933f078c6ec0a6fc60a11a6a">   82</a></span>&#160;<span class="preprocessor">#define REGVERSION          0x10    // version code of the chip</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ab846b1273c96f70c1a4d44c1c06f744f">   84</a></span>&#160;<span class="preprocessor">#define REGPALEVEL          0x11</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a1349892a7adac828df5ab3a395e557e0">   86</a></span>&#160;<span class="preprocessor">#define PA0ON           7           // if 1 - power amplifier 0 on</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a0048b53a5557ee80b7792fde9f976ba5">   87</a></span>&#160;<span class="preprocessor">#define PA1ON           6           // if 1 - power amplifier 1 on</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae5a87eb57ec917fd5b5fe4083875e19a">   88</a></span>&#160;<span class="preprocessor">#define PA2ON           5           // if 1 - power amplifier 2 on</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#acb5c8c4439d716b93a8d4767ac398e60">   90</a></span>&#160;<span class="preprocessor">#define OUT_POWER_CALC(power_par)   0x1f&amp;(18 + (power_par)) </span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a1d32019f8d7bdfc812efc3b4159465be">   92</a></span>&#160;<span class="preprocessor">#define REGPARAMP           0x12</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">// see rfm69_table.h to see table values of parameter</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
+<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#adb13d996270e7b3405f50af85c397922">   96</a></span>&#160;<span class="preprocessor">#define REGOCP              0x13</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a241fa810dd7c750734cf4d02893a8aaf">   98</a></span>&#160;<span class="preprocessor">#define OCPON           4   // if 1 - overload current protection is enabled, if 0 - disabled</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aedcc657b574a4c9f7956f94ad2e65d4a">  100</a></span>&#160;<span class="preprocessor">#define OCP_CURRENT_CALC(ocp_param) 0x0f&amp;(((ocp_param)/5) - 9)  // macro for calculating OCP trimming current in mA</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a124c0f8478c91b94f395a12f1900dd98">  102</a></span>&#160;<span class="preprocessor">#define REGLNA              0x18</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a95610ecbca4757054e9becc0f6da8001">  104</a></span>&#160;<span class="preprocessor">#define LNAZIN          7   // if 1 - LNA input impedance is 200 Ohms, if 0 - LNA input impedance is 50 Ohms</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a49a78405e3eb02eaf9ffc105a608f478">  106</a></span>&#160;<span class="preprocessor">#define LNAGAIN_AUTO    0x00    // LNA gain set by the internal AGC loop</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a84873bed84b9340fea0f0efa2f530413">  107</a></span>&#160;<span class="preprocessor">#define LNAGAIN_0DB     0x01    // highest gain</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a7c479aca2d55a39ce6ea29b19e049fee">  108</a></span>&#160;<span class="preprocessor">#define LNAGAIN_6DB     0x02    // highest gain - 6dB</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#abec8e8899abb8676e271a393dc71e4cc">  109</a></span>&#160;<span class="preprocessor">#define LNAGAIN_12DB    0x03    // highest gain - 12dB</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4f5bbac109b2fb500f51e37a9e8e5584">  110</a></span>&#160;<span class="preprocessor">#define LNAGAIN_24DB    0x04    // highest gain - 24dB</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#abd10dd2297d2d315c17627f73472de17">  111</a></span>&#160;<span class="preprocessor">#define LNAGAIN_36DB    0x05    // highest gain - 36dB</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ac2b74f9b02bba028a47c3cca0963e641">  112</a></span>&#160;<span class="preprocessor">#define LNAGAIN_48DB    0x06    // highest gain - 48dB</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a04d948dfd6c111a781e9d4faff096ddc">  114</a></span>&#160;<span class="preprocessor">#define REGRXBW             0x19</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="comment">// see rfm69_table.h to see table values of parameter</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a3618990d81a06a7579a4235ba9087c7b">  118</a></span>&#160;<span class="preprocessor">#define REGAFCBW            0x1a</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="comment">// see rfm69_table.h to see table values of parameter</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
+<div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a7551afc713c923527a9e440621453ed1">  122</a></span>&#160;<span class="preprocessor">#define REGOOKPEAK          0x1b</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aeff2ccb27679b8484f8e026c43245589">  124</a></span>&#160;<span class="preprocessor">#define OOKTHRESFIXED   0x00    // fixed threshold in the OOK data slicer</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a1f168d02ead502f19915a4d30f65af5a">  125</a></span>&#160;<span class="preprocessor">#define OOKTHRESPEAK    0x40    // peak threshold in the OOK data slicer</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#af212a794e44077811e9d17865b9e7615">  126</a></span>&#160;<span class="preprocessor">#define OOKTHRESAVERAGE 0x80    // average threshold in the OOK data slicer</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">// see rfm69_table.h to see table values of parameter</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a1e7581c4ffcbed58604c591226e4d978">  130</a></span>&#160;<span class="preprocessor">#define REGOOKAVG           0x1c // лень заполнять</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a0aa0e89486d7839ba9c4e84c65fae7bd">  131</a></span>&#160;<span class="preprocessor">#define REGOOKFIX           0x1d</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00133"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a549146031e910654195343941b259b4a">  133</a></span>&#160;<span class="preprocessor">#define REGAFCFEI           0x1e</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae62e1cd7f99a669aace9977a00223e04">  135</a></span>&#160;<span class="preprocessor">#define FEIDONE         6       // 0 - frequency error indicator is on-going, 1 - FEI is finished </span></div>
+<div class="line"><a name="l00136"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a5ef3181e5a9fd8907344932012b2dc06">  136</a></span>&#160;<span class="preprocessor">#define FEISTART        5       // write 1 to start FEI</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a89c452b62e13a82d037b2b55e5618781">  137</a></span>&#160;<span class="preprocessor">#define AFCDONE         4       // 0 - AFC is on-going, 1 - AFC is finished</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ac3f3f8de47d947af91e9b12e8a461e2c">  138</a></span>&#160;<span class="preprocessor">#define AFCAUTOCLEAR    3       // 0 - AFC auto clear off, 1 - auto clear on</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ab65fcdba5953290d2b432eab78862c90">  139</a></span>&#160;<span class="preprocessor">#define AFCAUTOON       2       // 0 - AFC auto mode off, 1 - on</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a743e57d19924300e6a03ed29ca842378">  140</a></span>&#160;<span class="preprocessor">#define AFCCLEAR        1       // write 1 to clear AFC value</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a530b80f625c918cd513e806690c3eb8f">  141</a></span>&#160;<span class="preprocessor">#define AFCSTART        0       // write 1 to start AFC</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae1d8204973c4f035a2531a49399932bc">  143</a></span>&#160;<span class="preprocessor">#define REGAFCMSB           0x1f</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a30bb86310fbf89c247c1d7633ac3d5fd">  144</a></span>&#160;<span class="preprocessor">#define REGAFCLSB           0x20</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
+<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a978731b8f67ea668b31cd6ebbce46438">  146</a></span>&#160;<span class="preprocessor">#define AFC_VALUE(afc_par)  (afc_par)*FSTEP     // macro to calculate AFC value in Hz from register value</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a8173b0c23d1021f13568f8361c16d688">  148</a></span>&#160;<span class="preprocessor">#define REGFEIMSB           0x21</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a8911f63976ee2fc01359a23a4006c6a0">  149</a></span>&#160;<span class="preprocessor">#define REGFEILSB           0x22</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ac372489905bd18f905f1bbaed3567bd2">  151</a></span>&#160;<span class="preprocessor">#define FEI_VALUE(fei_par)  (fei_par)*FSTEP     // macro to frequency offset value in Hz from register value</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
+<div class="line"><a name="l00153"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a1bb435143f57d8ec7f961485ff1fd2f8">  153</a></span>&#160;<span class="preprocessor">#define REGRSSICONFIG       0x23</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
+<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a5c3ca15b347688880a2060b702b4008a">  155</a></span>&#160;<span class="preprocessor">#define RSSIDONE        1       // 0 - RSSI is on-going, 1 - RSSI is done</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4b107df1798a385cc8351847f6e74732">  156</a></span>&#160;<span class="preprocessor">#define RSSISTART       0       // write 1 to start RSSI measurement</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a056390289d6aa9905db0fdbf661547c1">  158</a></span>&#160;<span class="preprocessor">#define REGRSSIVALUE        0x24</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
+<div class="line"><a name="l00160"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#af2bca333b4f95258231d7f991e6e5f4a">  160</a></span>&#160;<span class="preprocessor">#define RSSI_VALUE(rssi_par)    (rssi_par)/2    // macro to calculate RSSI value in dBm from register value</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
+<div class="line"><a name="l00162"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae2cf028d3c2b1a9ebf20e044888afe9e">  162</a></span>&#160;<span class="preprocessor">#define REGDIOMAPPING1      0x25</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
+<div class="line"><a name="l00164"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4f3496e7ca63e021951eb2710254afa1">  164</a></span>&#160;<span class="preprocessor">#define DIO0MAP0        0x00</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae813cfcd6751615ac9bcab14078f75e2">  165</a></span>&#160;<span class="preprocessor">#define DIO0MAP1        0x40</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a1e22c2bc2823cccc33777c8522d36bba">  166</a></span>&#160;<span class="preprocessor">#define DIO0MAP2        0x80</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a47c2b7e0dd8a83495dcef623d28f6f16">  167</a></span>&#160;<span class="preprocessor">#define DIO0MAP3        0xc0</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
+<div class="line"><a name="l00169"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a45c774244e4f9ecc7b74c3d27c3c9e25">  169</a></span>&#160;<span class="preprocessor">#define DIO1MAP0        0x00</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a28dbdd3048a49e9534c5353c78041746">  170</a></span>&#160;<span class="preprocessor">#define DIO1MAP1        0x10</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a6768e5f5ad9ec28893d234ec785fffa1">  171</a></span>&#160;<span class="preprocessor">#define DIO1MAP2        0x20</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a81410d3fd6bef577f3a249ffecbd6786">  172</a></span>&#160;<span class="preprocessor">#define DIO1MAP3        0x30</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
+<div class="line"><a name="l00174"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aed2a21f1c1c6a797caba129bc9e4c0e8">  174</a></span>&#160;<span class="preprocessor">#define DIO2MAP0        0x00</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ab2663f2f2c9f76826476ab37c9367c73">  175</a></span>&#160;<span class="preprocessor">#define DIO2MAP1        0x04</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a3247a01dec1629f6cb03b84784d84bbe">  176</a></span>&#160;<span class="preprocessor">#define DIO2MAP2        0x08</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a67d05e78726b0140d9871f9b2ad47135">  177</a></span>&#160;<span class="preprocessor">#define DIO2MAP3        0x0c</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
+<div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a847863754d98a5a67d2d6fa3b6144899">  179</a></span>&#160;<span class="preprocessor">#define DIO3MAP0        0x00</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#af9f9c18fc5ead63d4aaa535177542834">  180</a></span>&#160;<span class="preprocessor">#define DIO3MAP1        0x01</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a3bc270a2d23e70b889bc46c84fbb976b">  181</a></span>&#160;<span class="preprocessor">#define DIO3MAP2        0x02</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aa0a8add085e07f5041b9a69ed3ecf3b8">  182</a></span>&#160;<span class="preprocessor">#define DIO3MAP3        0x03</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div>
+<div class="line"><a name="l00184"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae3223941a8a257b0df1eb6554b69430d">  184</a></span>&#160;<span class="preprocessor">#define REGDIOMAPPING2      0x26</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div>
+<div class="line"><a name="l00186"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a72f94132418287bf937d1d3bbd4becb4">  186</a></span>&#160;<span class="preprocessor">#define DIO5MAP0        0x00</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a6695cdbe35431feaa9093f833bde3e5f">  187</a></span>&#160;<span class="preprocessor">#define DIO5MAP1        0x10</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a8f5e4e5bf7d65e3cee47c16c31a5bc6a">  188</a></span>&#160;<span class="preprocessor">#define DIO5MAP2        0x20</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aaaa42b382c12ce1af8f984d86f0456e4">  189</a></span>&#160;<span class="preprocessor">#define DIO5MAP3        0x30</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a11cfa96d484ace5ce257786f77580942">  191</a></span>&#160;<span class="preprocessor">#define CLKOUT32M   0x00</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a79b499b028888bc8c6dacfe9b829eecf">  192</a></span>&#160;<span class="preprocessor">#define CLKOUT16M   0x01</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ac9da285bce38f36312291a81815b7f09">  193</a></span>&#160;<span class="preprocessor">#define CLKOUT8M    0x02</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a00266508cf870890e84f276c44c1ece8">  194</a></span>&#160;<span class="preprocessor">#define CLKOUT4M    0x03</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a410e776f61c135095dae973755d6727d">  195</a></span>&#160;<span class="preprocessor">#define CLKOUT2M    0x04</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#af32325a419e074ab0960dfaf8a8e693c">  196</a></span>&#160;<span class="preprocessor">#define CLKOUT1M    0x05</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a7657be8bf90f441396837442586c0221">  197</a></span>&#160;<span class="preprocessor">#define CLKOUT_RC   0x06    // output frequency of the RC oscillator (automatically enabled)</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a55de476fb11aadcf3811e2d98442bb79">  198</a></span>&#160;<span class="preprocessor">#define CLKOUT_OFF  0x07    // output frequency is off</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
+<div class="line"><a name="l00200"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a5581bc34e2146c8800315d45db1dff95">  200</a></span>&#160;<span class="preprocessor">#define REGIRQFLAGS1        0x27</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
+<div class="line"><a name="l00202"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a92cb4444110d68c98094440cdac68967">  202</a></span>&#160;<span class="preprocessor">#define MODEREADY       7</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a9a5efc560263b8ce73d05900de6b389c">  203</a></span>&#160;<span class="preprocessor">#define RXREADY         6   // Set in Rx mode, after RSSI, AGC and AFC. Cleared when leaving Rx.</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a10384620cdac74aee8dafcca97f6159d">  204</a></span>&#160;<span class="preprocessor">#define TXREADY         5   // Set in Tx mode, after PA ramp-up.</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a1cdc3c070e5a5522a7e604bce088e265">  205</a></span>&#160;<span class="preprocessor">#define PLLLOCK         4   // Set (in FS, Rx or Tx) when the PLL is locked. Cleared when it is not.</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a2e5f67a52331dcf76b9d8322689966d8">  206</a></span>&#160;<span class="preprocessor">#define RSSI_I          3   // Set in Rx when the RssiValue exceeds RssiThreshold. Cleared when leaving Rx.</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a45ba202b05caf39795aeca91b0ae547e">  207</a></span>&#160;<span class="preprocessor">#define TIMEOUT         2   // Set when a timeout occurs. Cleared when leaving Rx or FIFO is emptied.</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ac695544d945cf9327cdeb1c7634f85b5">  208</a></span>&#160;<span class="preprocessor">#define AUTOMODE        1   // Set when entering Intermediate mode. Cleared when exiting Intermediate mode.</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a17a1cea93e6f57035eaae10f7333076f">  209</a></span>&#160;<span class="preprocessor">#define SYNCADDRMATCH   0   // Set when Sync and Address (if enabled) are detected. Cleared when leaving Rx or FIFO is emptied.</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ad70e04845dd0a9881a85998903e22f18">  211</a></span>&#160;<span class="preprocessor">#define REGIRQFLAGS2        0x28</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a77aff42ee63cba9ce0da81cea1a6d31a">  213</a></span>&#160;<span class="preprocessor">#define FIFOISFULL      7   // Set when FIFO is full (i.e. contains 66 bytes), else cleared.</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a171aa0f0eeeba7bc44c1516a4c17f1a9">  214</a></span>&#160;<span class="preprocessor">#define FIFONOTEMPTY    6   // Set when FIFO contains at least one byte, else cleared.</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a91beafaa9e1bd277c49133dacc35dfac">  215</a></span>&#160;<span class="preprocessor">#define FIFOLEVEL       5   // Set when the number of bytes in the FIFO strictly exceeds FifoThreshold, else cleared.</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a6ca169e1b9cd5a6722cafceb80991e85">  216</a></span>&#160;<span class="preprocessor">#define FIFOOVERRUN     4   // Set when FIFO overrun occurs. (except in Sleep mode). Flag(s) and FIFO are cleared when this bit is set.</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ab94ae9d0a96f994c152c3f63abca6024">  217</a></span>&#160;<span class="preprocessor">#define PACKETSENT      3   // Set in Tx when the complete packet has been sent. Cleared when exiting Tx.</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#acb819e9cd3dc27e3becd01e8354ddf2f">  218</a></span>&#160;<span class="preprocessor">#define PAYLOADREADY    2   // Set in Rx when the payload is ready (i.e. last byte received and CRC, if enabled and CrcAutoClearOff is cleared, is Ok). Cleared when FIFO is empty.</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ac42f89172030ef27658293ddadfd07a1">  219</a></span>&#160;<span class="preprocessor">#define CRCOK           1   // Set in Rx when the CRC of the payload is Ok. Cleared when FIFO is empty.</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
+<div class="line"><a name="l00221"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ad8096e614a46fa1f7bf4f9f4d27c318b">  221</a></span>&#160;<span class="preprocessor">#define REGRSSITHRESH       0x29</span></div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
+<div class="line"><a name="l00223"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aab1351f68c4bd1865fae376734674afd">  223</a></span>&#160;<span class="preprocessor">#define RSSI_THRESH_CALC(rssi_parr) (rssi_parr)*2   // macro to calculate trigger level of RSSI interrupt</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
+<div class="line"><a name="l00225"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a011c4501e15a8911eda75ac89d58018b">  225</a></span>&#160;<span class="preprocessor">#define REGRXTIMEOUT1       0x2a</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#adc87e99d3b958b525723983049f150f0">  226</a></span>&#160;<span class="preprocessor">#define REGRXTIMEOUT2       0x2b</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ad2eeeec32f8cfd2cdec89fc174a95b71">  227</a></span>&#160;<span class="preprocessor">#define REGPREAMBLEMSB      0x2c</span></div>
+<div class="line"><a name="l00228"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a93c96ac4c17b088f5a6594522827b3cc">  228</a></span>&#160;<span class="preprocessor">#define REGPREAMBLELSB      0x2d</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
+<div class="line"><a name="l00230"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a2bc1333738c0815e521613938a5498dc">  230</a></span>&#160;<span class="preprocessor">#define REGSYNCCONFIG       0x2e</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
+<div class="line"><a name="l00232"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a5a8ee3bc363c8cdf8acb30fcef379b1b">  232</a></span>&#160;<span class="preprocessor">#define SYNCON          7   // 1 - sync word on , 0 - sync word off</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ad5136933340ac95954fc304b58fc005c">  233</a></span>&#160;<span class="preprocessor">#define FIFOFILLCOND    6   // if 0 - FIFO is filling if SyncAddress interrupt occurs, if 1 FIFO is filling as long as FifoFillCondition is set</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;</div>
+<div class="line"><a name="l00235"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#acd179fc969c2f0e41b6bd5e1aa7906f1">  235</a></span>&#160;<span class="preprocessor">#define SYNCSIZE_CALC(syncsize_par)     ( (( (syncsize_par) - 1 ) &amp; 0x07) &lt;&lt; 3 )</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="preprocessor">#if (SYNC_WORD_SIZE &gt; 0)</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae106483494497c8026ab22e1ef8fcdf6">  238</a></span>&#160;<span class="preprocessor">    #define SYNC_WORD_ON    0x80</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="preprocessor">    #define SYNC_WORD_ON    0x00</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
+<div class="line"><a name="l00243"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a6ee2457b4f576c698411cb0ab894db9b">  243</a></span>&#160;<span class="preprocessor">#define REGSYNCVALUE1       0x2f</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#adaca8600b14d05a9c040f41fa138f1d8">  244</a></span>&#160;<span class="preprocessor">#define REGSYNCVALUE2       0x30</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a72799d7522e3cf5eab70330ae5ea18f5">  245</a></span>&#160;<span class="preprocessor">#define REGSYNCVALUE3       0x31</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#af73cec688464a1a876c1537b2a2c1585">  246</a></span>&#160;<span class="preprocessor">#define REGSYNCVALUE4       0x32</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a7f56f21a74bacdb62ca3c56f8460f15b">  247</a></span>&#160;<span class="preprocessor">#define REGSYNCVALUE5       0x33</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a5bfe98591e912a4d3ebcba3ee86510e2">  248</a></span>&#160;<span class="preprocessor">#define REGSYNCVALUE6       0x34</span></div>
+<div class="line"><a name="l00249"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a55fce655cb8a811fbd5784b344404d2a">  249</a></span>&#160;<span class="preprocessor">#define REGSYNCVALUE7       0x35</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a9c05432f6eeff13f8b28eb3b1da71ae2">  250</a></span>&#160;<span class="preprocessor">#define REGSYNCVALUE8       0x36</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4b11f6a06f72fab02a3560d3f6cc0926">  251</a></span>&#160;<span class="preprocessor">#define REGPACKETCONFIG1    0x37</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
+<div class="line"><a name="l00253"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a5db0212961ff5494d1c9d6efdcf03730">  253</a></span>&#160;<span class="preprocessor">#define PACKETFORMAT    7       // if 0 - packet lenght is fixed, if 1 - packet lenght is variable</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
+<div class="line"><a name="l00255"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a15df7bdfa2cb6787bd141aefc0f93e12">  255</a></span>&#160;<span class="preprocessor">#define ENCODING_OFF    0x00    // off any dc free data encoding/decoding</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a120283fb693b8422442adc2efd40c388">  256</a></span>&#160;<span class="preprocessor">#define MANCHESTER_ENC  0x20    // manchester encoding enabled</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a304305da7043606cd4dd1beea9b89ab1">  257</a></span>&#160;<span class="preprocessor">#define DATA_WHITENING  0x40    // data whitening enabled</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;</div>
+<div class="line"><a name="l00259"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a73c706d20d14f72e4864392b4bad9799">  259</a></span>&#160;<span class="preprocessor">#define CRCON           4       // if 1 - crc is on, else off</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ad5bfb4aedaab8eef409e4e7838caa375">  260</a></span>&#160;<span class="preprocessor">#define CRCAUTOCLEAROFF 3       // When CRC check fails, if 0 - FIFO is cleared and packet is received, if 1 - FIFO is not cleared and PayloadReady interrupt issued</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
+<div class="line"><a name="l00262"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4dfbb7041e66090274f3d17e36e8d31c">  262</a></span>&#160;<span class="preprocessor">#define ADDRESS_OFF         0x00    // off address filtering</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a34bddadd70544f1ca99813d4b1cea8f4">  263</a></span>&#160;<span class="preprocessor">#define NODE_ADDRESS_ONLY   0x02    // node address is on, broadcast address is off</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ab3f7692a1ea401ba18ca18246ebef425">  264</a></span>&#160;<span class="preprocessor">#define NODE_BROADCAST_ADDR 0X04    // node address and broadcast addresses are on</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
+<div class="line"><a name="l00266"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#abffe757f637526671e8e20fcdbdec770">  266</a></span>&#160;<span class="preprocessor">#define REGPAYLOADLENGHT    0x38</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
+<div class="line"><a name="l00268"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4b29fab9c29e60f09b04d5a0f605b189">  268</a></span>&#160;<span class="preprocessor">#define REGNODEADRS         0x39</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4d662c8cda512fe543375ac7f6c46749">  269</a></span>&#160;<span class="preprocessor">#define REGBROADCASTADRS    0x3a</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a720271cffe57b38268a7ee7855973f9b">  270</a></span>&#160;<span class="preprocessor">#define REGAUTOMODES        0x3b</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
+<div class="line"><a name="l00272"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a5cbc437168622c4aaa88c8903c426607">  272</a></span>&#160;<span class="preprocessor">#define REGFIFOTHRES        0x3c</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
+<div class="line"><a name="l00274"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a7500b77df8de3795a4eb235ed24c70f3">  274</a></span>&#160;<span class="preprocessor">#define TXSTARTCOND     7       // if 1 - tx start when FIFO is not empty, if 0 - tx starts when number of bytes exceeds threshold </span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
+<div class="line"><a name="l00276"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a8ab30718fe278146f00e300a4c414055">  276</a></span>&#160;<span class="preprocessor">#define REGPACKETCONFIG2    0x3d</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="comment">// see rfm69_table.h to see table of values of the parameter</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
+<div class="line"><a name="l00280"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a22be40f300669af489a4c30c46e2d5ef">  280</a></span>&#160;<span class="preprocessor">#define RESTARTRX       2       // set this bit to restart the receiver in WAIT mode</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a2056d2ccf745e838f1436ce70d8e81ff">  281</a></span>&#160;<span class="preprocessor">#define AUTORXRESTARTON 1       // If this bit is set, receiver automstically restarted after RestartRx delay</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a329c471460a05db1a3cfb2c357465529">  282</a></span>&#160;<span class="preprocessor">#define AESON           0       // set this bit to enable AES encryption/decryption</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
+<div class="line"><a name="l00284"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#af141e7eb7199de42b5f4bbd5ae07cd7c">  284</a></span>&#160;<span class="preprocessor">#define REGAESKEY1          0x3e</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aca6b34933f77bc9ef4cef51f55d68442">  285</a></span>&#160;<span class="preprocessor">#define REGAESKEY2          0x3f</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a9d5d17a8025ae0fec24dccfa0e5efadc">  286</a></span>&#160;<span class="preprocessor">#define REGAESKEY3          0x40</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a215e30e552e140bf1b5a0be60c799722">  287</a></span>&#160;<span class="preprocessor">#define REGAESKEY4          0x41</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aa9f9898119273eff104fa24d7209a2a0">  288</a></span>&#160;<span class="preprocessor">#define REGAESKEY5          0x42</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a9b76bda74c99e9ca6e09e1136744a43b">  289</a></span>&#160;<span class="preprocessor">#define REGAESKEY6          0x43</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a24a5fb2788fdd3e56a3a44560517aa0e">  290</a></span>&#160;<span class="preprocessor">#define REGAESKEY7          0x44</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae61c54d55f736b51bd0576501717e76d">  291</a></span>&#160;<span class="preprocessor">#define REGAESKEY8          0x45</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a50f3c2dcec4fdb876a4a63ed79f5c750">  292</a></span>&#160;<span class="preprocessor">#define REGAESKEY9          0x46</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae0b3f3ceb3f00370b451ec6edc0696fc">  293</a></span>&#160;<span class="preprocessor">#define REGAESKEY10         0x47</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a8afb4e59278ce7bb8965f96b2c549544">  294</a></span>&#160;<span class="preprocessor">#define REGAESKEY11         0x48</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a10e84f322d2d7dcaa4c992a29e078a97">  295</a></span>&#160;<span class="preprocessor">#define REGAESKEY12         0x49</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a00fa83f606f7ea91247127e0f2194dd8">  296</a></span>&#160;<span class="preprocessor">#define REGAESKEY13         0x4a</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#adb3ced584661e9afb47fc1824ce695fd">  297</a></span>&#160;<span class="preprocessor">#define REGAESKEY14         0x4b</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4afa53c6e54801cdbda901875b28f640">  298</a></span>&#160;<span class="preprocessor">#define REGAESKEY15         0x4c</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a80ac444c056692919e79d59f53f86e66">  299</a></span>&#160;<span class="preprocessor">#define REGAESKEY16         0x4d</span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
+<div class="line"><a name="l00301"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aa0bf8487f51a90f835e7c588f3f97b09">  301</a></span>&#160;<span class="preprocessor">#define REGTEMP1            0x4e</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
+<div class="line"><a name="l00303"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a98f2faf0e85fee45baba3c2b454c6048">  303</a></span>&#160;<span class="preprocessor">#define TEMPMEASSTART   3   // set this bit to start temperature measurement</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a576ac61a926b2cdba9cefc2d46c679ec">  304</a></span>&#160;<span class="preprocessor">#define TEMPMEASRUNNING 2   // 1 - if temperature measurement is on-going, 0 - if complete</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
+<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ae99e6d208b352bcde1a4cbdd0e703b6e">  306</a></span>&#160;<span class="preprocessor">#define REGTEMP2            0x4f</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
+<div class="line"><a name="l00309"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a3f369b796fc94d07477b86e19c814684">  309</a></span>&#160;<span class="preprocessor">#define RETESTLNA           0x58</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
+<div class="line"><a name="l00311"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a422ea157d1233794520c913c10633a17">  311</a></span>&#160;<span class="preprocessor">#define NORMAL_SENS_BOOST_MODE  0x1b</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a2dd9a959b5e7b86f3db72b4adfe24f57">  312</a></span>&#160;<span class="preprocessor">#define HIGH_SENS_BOOST_MODE    0x2d</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a31ce3ab758f3a942d93df2a0342e51f9">  314</a></span>&#160;<span class="preprocessor">#define REGTESTPA1          0x5a</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;</div>
+<div class="line"><a name="l00316"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ab5335091145d688a30c6a2156468964a">  316</a></span>&#160;<span class="preprocessor">#define PA1_NORMAL_RX_MODE      0x55</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a28f8253d94b542486ba3852172bb8362">  317</a></span>&#160;<span class="preprocessor">#define PA1_13DBM_RX_MODE       0x5d</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a6b3b0e543c946639cb4593edfdf074eb">  318</a></span>&#160;<span class="preprocessor">#define PA1_PA0_OR_RX           0x55</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
+<div class="line"><a name="l00320"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a4f6484d0d1a620c746c45706c7b4ac28">  320</a></span>&#160;<span class="preprocessor">#define REGTESTPA2          0x5c</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
+<div class="line"><a name="l00322"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a101c8ccb68669aacc8526d93bc30cb71">  322</a></span>&#160;<span class="preprocessor">#define PA2_NORMAL_RX_MODE      0x55</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a72b08315e4cf72629fbfd83c9653c1ad">  323</a></span>&#160;<span class="preprocessor">#define PA2_13DBM_RX_MODE       0x5d</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#ad0bf4cae65d5b154d4bdd1ec06ef3eb7">  324</a></span>&#160;<span class="preprocessor">#define PA2_PA0_OR_RX           0x55</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
+<div class="line"><a name="l00326"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#aed951ac28a32774019dbd38fb3da3ca7">  326</a></span>&#160;<span class="preprocessor">#define REGTESTDAGC         0x6f</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div>
+<div class="line"><a name="l00328"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a184a4c9e0bac911aaf2b3878c76cdada">  328</a></span>&#160;<span class="preprocessor">#define AFC_NORMAL_MODE         0x00</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a5c79a9a0516fc19a9553557cc19e5204">  329</a></span>&#160;<span class="preprocessor">#define AFC_LOW_BETA_ON         0x20</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a33856b4a4f7d1a963ce8e3bd598d83fb">  330</a></span>&#160;<span class="preprocessor">#define AFC_LOW_BETA_OFF        0x30</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
+<div class="line"><a name="l00332"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a41c186e401bd17378273ae58840a4f3c">  332</a></span>&#160;<span class="preprocessor">#define REGTESTAFC          0x71</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
+<div class="line"><a name="l00334"></a><span class="lineno"><a class="line" href="rfm69__registers_8h.html#a97d03ac0ed1b9277f0d3e9143275d20d">  334</a></span>&#160;<span class="preprocessor">#define LOW_BETA_AFC_OFFSET_CALC(afcoff_par)    (afcoff_par)*448    // macro to calculate afc offset value for low modulation index systems in Hz from register value</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor">#endif // RFM69_REGISTERS_H_INCLUDED</span></div>
+<div class="ttc" id="rfm69__table_8h_html"><div class="ttname"><a href="rfm69__table_8h.html">rfm69_table.h</a></div></div>
+<div class="ttc" id="rfm69_8h_html"><div class="ttname"><a href="rfm69_8h.html">rfm69.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по RFM69. Последние изменения: Сб 31 Янв 2015 11:51:14. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

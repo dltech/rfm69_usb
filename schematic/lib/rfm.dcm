@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: Вт 09 дек 2014 14:22:53
+#
+$CMP RFM69
+D RFM69 ISM band transciever module
+F http://www.hoperf.com/upload/rf/RFM69CW-V1.1.pdf
+$ENDCMP
+#
+#End Doc Library

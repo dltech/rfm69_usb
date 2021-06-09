@@ -1,0 +1,4 @@
+target extended-remote : 4242
+file /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/stm32f10x_md/bin/Debug/stm32f103_md.elf
+load
+quit

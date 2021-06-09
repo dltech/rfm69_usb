@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="stm32f10x_md" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_arm_none_eabi_gcc_compiler" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/stm32f10x_md.elf" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gnu_arm_none_eabi_gcc_compiler" />
+				<Option projectCompilerOptionsRelation="0" />
+				<Option projectLinkerOptionsRelation="0" />
+				<Option projectIncludeDirsRelation="0" />
+				<Option projectResourceIncludeDirsRelation="0" />
+				<Option projectLibDirsRelation="0" />
+				<Compiler>
+					<Add option="-Os" />
+				</Compiler>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command=" &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/stm32f10x_md" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gnu_arm_none_eabi_gcc_compiler" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Environment>
+				<Variable name="LDSCRIPT" value="stm32f10x_md.ld" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add option="-mcpu=cortex-m3" />
+			<Add option="-mthumb" />
+			<Add option="-Wall" />
+			<Add option="-nostartfiles   -ffreestanding" />
+			<Add option="-ffunction-sections -fdata-sections" />
+			<Add option="-DSTM32F10X_MD" />
+			<Add option="-DUSE_STDPERIPH_DRIVER" />
+			<Add directory="${PROJECT_DIR}" />
+			<Add directory="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport" />
+			<Add directory="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc" />
+			<Add directory="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x" />
+			<Add directory="RFM69" />
+			<Add directory="USB_FS" />
+			<Add directory="USB_FS/STM32_USB_FS_Device_Driver/inc" />
+		</Compiler>
+		<Linker>
+			<Add option="-T $(LDSCRIPT)" />
+			<Add option="-gc-sections" />
+		</Linker>
+		<Unit filename="RFM69/rfm69.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="RFM69/rfm69.h" />
+		<Unit filename="RFM69/rfm69_registers.h" />
+		<Unit filename="RFM69/rfm69_table.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmFunc.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmInstr.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md.s" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h" />
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/inc/usb_core.h" />
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/inc/usb_def.h" />
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/inc/usb_init.h" />
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/inc/usb_int.h" />
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/inc/usb_lib.h" />
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/inc/usb_mem.h" />
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/inc/usb_regs.h" />
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/inc/usb_sil.h" />
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/inc/usb_type.h" />
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/src/usb_core.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/src/usb_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/src/usb_int.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/src/usb_mem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/src/usb_regs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/STM32_USB_FS_Device_Driver/src/usb_sil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/hw_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/hw_config.h" />
+		<Unit filename="USB_FS/stm32_it.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/stm32_it.h" />
+		<Unit filename="USB_FS/usb_conf.h" />
+		<Unit filename="USB_FS/usb_desc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/usb_desc.h" />
+		<Unit filename="USB_FS/usb_endp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/usb_istr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/usb_istr.h" />
+		<Unit filename="USB_FS/usb_prop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/usb_prop.h" />
+		<Unit filename="USB_FS/usb_pwr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="USB_FS/usb_pwr.h" />
+		<Unit filename="leds/led_byte.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leds/led_byte.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stm32f10x_conf.h" />
+		<Extensions>
+			<code_completion />
+			<debugger>
+				<remote_debugging>
+					<options conn_type="1" serial_port="4242" serial_baud="115200" ip_port="4242" extended_remote="1" />
+				</remote_debugging>
+			</debugger>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

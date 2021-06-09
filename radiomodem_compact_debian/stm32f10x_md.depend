@@ -1,0 +1,1562 @@
+# depslib dependency file v1.0
+1411038597 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md.s
+
+1411038713 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c
+	"stm32f10x.h"
+
+1414484176 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1332921786 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1332921786 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmInstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1332921786 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmFunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1411038324 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1411038541 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c
+	"misc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c
+	"stm32f10x_adc.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h
+	"stm32f10x.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c
+	"stm32f10x_bkp.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c
+	"stm32f10x_can.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_can.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c
+	"stm32f10x_cec.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_cec.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c
+	"stm32f10x_crc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_crc.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c
+	"stm32f10x_dac.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dac.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c
+	"stm32f10x_dbgmcu.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dbgmcu.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c
+	"stm32f10x_dma.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h
+	"stm32f10x.h"
+
+1411038538 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c
+	"stm32f10x_flash.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c
+	"stm32f10x_fsmc.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_fsmc.h
+	"stm32f10x.h"
+
+1411038689 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c
+	"stm32f10x_i2c.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_i2c.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c
+	"stm32f10x_iwdg.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_iwdg.h
+	"stm32f10x.h"
+
+1411038577 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1411038782 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c
+	"stm32f10x_rtc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c
+	"stm32f10x_sdio.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_sdio.h
+	"stm32f10x.h"
+
+1411038706 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c
+	"stm32f10x_usart.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h
+	"stm32f10x.h"
+
+1299732436 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c
+	"stm32f10x_wwdg.h"
+	"stm32f10x_rcc.h"
+
+1299732436 /home/dltech/gdrive/Микроконтроллеры/STM-32/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_wwdg.h
+	"stm32f10x.h"
+
+1414459814 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_md/main.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+	"inttypes.h"
+
+1409989074 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_md//stm32f10x_conf.h
+
+1411038597 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md.s
+
+1411038713 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c
+	"stm32f10x.h"
+
+1414484176 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1414403476 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1414403467 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmInstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1414403466 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmFunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1411038324 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1413540503 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/stm32f10x_md//stm32f10x_conf.h
+	"stm32f10x_adc.h"
+	"stm32f10x_bkp.h"
+	"stm32f10x_can.h"
+	"stm32f10x_crc.h"
+	"stm32f10x_dac.h"
+	"stm32f10x_dbgmcu.h"
+	"stm32f10x_dma.h"
+	"stm32f10x_exti.h"
+	"stm32f10x_flash.h"
+	"stm32f10x_fsmc.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_i2c.h"
+	"stm32f10x_iwdg.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_rtc.h"
+	"stm32f10x_sdio.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"stm32f10x_usart.h"
+	"stm32f10x_wwdg.h"
+	"misc.h"
+
+1411038684 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h
+	"stm32f10x.h"
+
+1411038559 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h
+	"stm32f10x.h"
+
+1411038698 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_can.h
+	"stm32f10x.h"
+
+1411038328 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_crc.h
+	"stm32f10x.h"
+
+1411038653 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dac.h
+	"stm32f10x.h"
+
+1411038372 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dbgmcu.h
+	"stm32f10x.h"
+
+1411038681 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h
+	"stm32f10x.h"
+
+1411038533 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h
+	"stm32f10x.h"
+
+1411038693 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h
+	"stm32f10x.h"
+
+1411038696 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_fsmc.h
+	"stm32f10x.h"
+
+1411038678 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1411038703 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_i2c.h
+	"stm32f10x.h"
+
+1411038372 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_iwdg.h
+	"stm32f10x.h"
+
+1411038383 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1411038707 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1411038372 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h
+	"stm32f10x.h"
+
+1411038685 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_sdio.h
+	"stm32f10x.h"
+
+1411038668 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h
+	"stm32f10x.h"
+
+1411038783 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h
+	"stm32f10x.h"
+
+1411038662 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h
+	"stm32f10x.h"
+
+1411038341 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_wwdg.h
+	"stm32f10x.h"
+
+1411038581 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h
+	"stm32f10x.h"
+
+1411038541 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c
+	"misc.h"
+
+1411038779 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c
+	"stm32f10x_adc.h"
+	"stm32f10x_rcc.h"
+
+1411038573 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c
+	"stm32f10x_bkp.h"
+	"stm32f10x_rcc.h"
+
+1411038776 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c
+	"stm32f10x_can.h"
+	"stm32f10x_rcc.h"
+
+1411038619 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c
+	"stm32f10x_cec.h"
+	"stm32f10x_rcc.h"
+
+1411038522 /home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_cec.h
+	"stm32f10x.h"
+
+1411038368 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c
+	"stm32f10x_crc.h"
+
+1411038674 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c
+	"stm32f10x_dac.h"
+	"stm32f10x_rcc.h"
+
+1411038446 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c
+	"stm32f10x_dbgmcu.h"
+
+1411038702 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c
+	"stm32f10x_dma.h"
+	"stm32f10x_rcc.h"
+
+1411038538 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1411038790 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c
+	"stm32f10x_flash.h"
+
+1411038711 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c
+	"stm32f10x_fsmc.h"
+	"stm32f10x_rcc.h"
+
+1411038689 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1411038777 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c
+	"stm32f10x_i2c.h"
+	"stm32f10x_rcc.h"
+
+1411038432 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c
+	"stm32f10x_iwdg.h"
+
+1411038577 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1411038782 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1411038576 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c
+	"stm32f10x_rtc.h"
+
+1411038700 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c
+	"stm32f10x_sdio.h"
+	"stm32f10x_rcc.h"
+
+1411038706 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1411038800 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1411038770 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c
+	"stm32f10x_usart.h"
+	"stm32f10x_rcc.h"
+
+1411038480 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c
+	"stm32f10x_wwdg.h"
+	"stm32f10x_rcc.h"
+
+1414496617 source:/home/dltech/gdrive/Микроконтроллеры/STM-32/stm32f10x_templates/stm32f10x_md/main.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+	"inttypes.h"
+
+1414403476 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1414403467 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmInstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1414403466 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmFunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1414500226 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware//stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"misc.h"
+
+1411038533 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h
+	"stm32f10x.h"
+
+1414484176 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1411038324 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1411038678 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1411038383 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1411038707 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1411038668 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h
+	"stm32f10x.h"
+
+1411038581 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h
+	"stm32f10x.h"
+
+1419341047 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/main.c
+	"stm32f10x_conf.h"
+	"hw_config.h"
+	"usb_lib.h"
+	"usb_desc.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1414500226 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"misc.h"
+
+1419347356 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/hw_config.h
+	"stm32f10x.h"
+	"usb_type.h"
+
+1412916988 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_type.h
+	"usb_conf.h"
+
+1412917117 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/usb_conf.h
+
+1412916993 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_lib.h
+	"hw_config.h"
+	"usb_type.h"
+	"usb_regs.h"
+	"usb_def.h"
+	"usb_core.h"
+	"usb_init.h"
+	"usb_sil.h"
+	"usb_mem.h"
+	"usb_int.h"
+
+1412918416 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_regs.h
+
+1412917047 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_def.h
+
+1412917708 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_core.h
+
+1412917033 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_init.h
+
+1412916994 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_sil.h
+
+1412916992 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_mem.h
+
+1412916977 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_int.h
+
+1412917054 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/usb_desc.h
+
+1412917018 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/usb_pwr.h
+
+1418980378 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/RFM69/rfm69.h
+	"rfm69_table.h"
+	"rfm69_registers.h"
+
+1418898596 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/RFM69/rfm69_table.h
+
+1412917779 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/RFM69/rfm69_registers.h
+	"rfm69_table.h"
+	"rfm69.h"
+
+1418983782 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/RFM69/rfm69.c
+	"stm32f10x_conf.h"
+	"rfm69.h"
+
+1419347382 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/hw_config.c
+	"stm32f10x_conf.h"
+	"stm32f10x.h"
+	"stm32_it.h"
+	"usb_lib.h"
+	"usb_prop.h"
+	"usb_desc.h"
+	"hw_config.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1412916998 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/stm32_it.h
+	"stm32f10x.h"
+
+1412917098 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/usb_prop.h
+
+1412925388 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/stm32_it.c
+	"stm32f10x_conf.h"
+	"hw_config.h"
+	"stm32_it.h"
+	"usb_lib.h"
+	"usb_istr.h"
+
+1412917036 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/usb_istr.h
+	"usb_conf.h"
+
+1412918419 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/src/usb_core.c
+	"usb_lib.h"
+
+1412917068 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/src/usb_init.c
+	"usb_lib.h"
+
+1412917318 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/src/usb_int.c
+	"usb_lib.h"
+
+1412917102 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/src/usb_mem.c
+	"usb_lib.h"
+
+1412918386 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/src/usb_regs.c
+	"usb_lib.h"
+
+1412917154 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/STM32_USB_FS_Device_Driver/src/usb_sil.c
+	"usb_lib.h"
+
+1412917401 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/usb_desc.c
+	"usb_lib.h"
+	"usb_desc.h"
+
+1418979408 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/usb_endp.c
+	"usb_lib.h"
+	"usb_desc.h"
+	"usb_mem.h"
+	"hw_config.h"
+	"usb_istr.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1412917340 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/usb_istr.c
+	"usb_lib.h"
+	"usb_prop.h"
+	"usb_pwr.h"
+	"usb_istr.h"
+
+1412917953 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/usb_prop.c
+	"usb_lib.h"
+	"usb_conf.h"
+	"usb_prop.h"
+	"usb_desc.h"
+	"usb_pwr.h"
+	"hw_config.h"
+
+1412925354 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/USB_FS/usb_pwr.c
+	"stm32f10x_conf.h"
+	"usb_lib.h"
+	"usb_conf.h"
+	"usb_pwr.h"
+	"hw_config.h"
+
+1411038597 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md.s
+
+1411038713 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c
+	"stm32f10x.h"
+
+1414484176 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1411038324 /home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1411038541 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c
+	"misc.h"
+
+1411038538 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1411038689 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1411038577 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1411038782 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1411038706 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1411038800 source:/home/dltech/gdrive/Projects/RFM_to_USB/stm32f103_firmware/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1411038783 /home/dltech/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h
+	"stm32f10x.h"
+
+1422675944 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/main.c
+	"stm32f10x_conf.h"
+	"hw_config.h"
+	"usb_lib.h"
+	"usb_desc.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1422602214 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1418277596 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h
+	"stm32f10x.h"
+
+1418280928 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1418280716 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1418279151 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmInstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1418279047 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmFunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1418276042 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1422602214 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact//stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1418279546 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1418276509 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1418280034 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1418279198 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h
+	"stm32f10x.h"
+
+1418278095 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h
+	"stm32f10x.h"
+
+1420996827 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/hw_config.h
+	"stm32f10x.h"
+	"usb_type.h"
+
+1418276021 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_type.h
+	"usb_conf.h"
+
+1418276395 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_conf.h
+
+1418276036 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_lib.h
+	"hw_config.h"
+	"usb_type.h"
+	"usb_regs.h"
+	"usb_def.h"
+	"usb_core.h"
+	"usb_init.h"
+	"usb_sil.h"
+	"usb_mem.h"
+	"usb_int.h"
+
+1418280080 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_regs.h
+
+1418276204 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_def.h
+
+1418278209 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_core.h
+
+1418276144 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_init.h
+
+1418276037 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_sil.h
+
+1418276034 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_mem.h
+
+1418275994 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_int.h
+
+1418276226 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_desc.h
+
+1418276096 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_pwr.h
+
+1426429266 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/RFM69/rfm69.h
+	"rfm69_table.h"
+	"rfm69_registers.h"
+
+1422734049 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/RFM69/rfm69_table.h
+
+1422734037 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/RFM69/rfm69_registers.h
+	"rfm69_table.h"
+	"rfm69.h"
+
+1418278311 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md.s
+
+1418280187 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c
+	"stm32f10x.h"
+
+1418280928 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1418276042 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1418277661 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c
+	"misc.h"
+
+1418277640 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1418279732 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1418278047 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1418280431 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1418280026 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1418280735 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1418280442 /home/dltech-deb/gdrive/Projects/RFM_to_USB/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h
+	"stm32f10x.h"
+
+1420996854 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/hw_config.c
+	"stm32f10x_conf.h"
+	"stm32f10x.h"
+	"stm32_it.h"
+	"usb_lib.h"
+	"usb_prop.h"
+	"usb_desc.h"
+	"hw_config.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1418276048 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/stm32_it.h
+	"stm32f10x.h"
+
+1418276359 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_prop.h
+
+1418277845 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/stm32_it.c
+	"stm32f10x_conf.h"
+	"hw_config.h"
+	"stm32_it.h"
+	"usb_lib.h"
+	"usb_istr.h"
+
+1418276170 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_istr.h
+	"usb_conf.h"
+
+1418280081 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_core.c
+	"usb_lib.h"
+
+1418276294 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_init.c
+	"usb_lib.h"
+
+1418277471 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_int.c
+	"usb_lib.h"
+
+1418276361 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_mem.c
+	"usb_lib.h"
+
+1418279966 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_regs.c
+	"usb_lib.h"
+
+1418276581 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_sil.c
+	"usb_lib.h"
+
+1418277761 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_desc.c
+	"usb_lib.h"
+	"usb_desc.h"
+
+1418276478 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_endp.c
+	"usb_lib.h"
+	"usb_desc.h"
+	"usb_mem.h"
+	"hw_config.h"
+	"usb_istr.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1418277575 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_istr.c
+	"usb_lib.h"
+	"usb_prop.h"
+	"usb_pwr.h"
+	"usb_istr.h"
+
+1418278901 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_prop.c
+	"usb_lib.h"
+	"usb_conf.h"
+	"usb_prop.h"
+	"usb_desc.h"
+	"usb_pwr.h"
+	"hw_config.h"
+
+1418278164 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_pwr.c
+	"stm32f10x_conf.h"
+	"usb_lib.h"
+	"usb_conf.h"
+	"usb_pwr.h"
+	"hw_config.h"
+
+1422734010 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_compact/RFM69/rfm69.c
+	"stm32f10x_conf.h"
+	"rfm69.h"
+
+1423221587 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/main.c
+	"stm32f10x_conf.h"
+	"hw_config.h"
+	"usb_lib.h"
+	"usb_desc.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1423221587 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1423221628 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h
+	"stm32f10x.h"
+
+1423221853 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1423221783 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1423221713 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmInstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1423221704 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmFunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1423221576 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1423221587 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact//stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1423221721 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1423221594 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1423221735 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1423221713 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h
+	"stm32f10x.h"
+
+1423221756 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h
+	"stm32f10x.h"
+
+1423221658 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h
+	"stm32f10x.h"
+
+1423221579 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/hw_config.h
+	"stm32f10x.h"
+	"usb_type.h"
+
+1423221575 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_type.h
+	"usb_conf.h"
+
+1423221589 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_conf.h
+
+1423221575 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_lib.h
+	"hw_config.h"
+	"usb_type.h"
+	"usb_regs.h"
+	"usb_def.h"
+	"usb_core.h"
+	"usb_init.h"
+	"usb_sil.h"
+	"usb_mem.h"
+	"usb_int.h"
+
+1423221738 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_regs.h
+
+1423221580 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_def.h
+
+1423221663 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_core.h
+
+1423221578 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_init.h
+
+1423221575 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_sil.h
+
+1423221575 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_mem.h
+
+1423221574 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_int.h
+
+1423221582 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_desc.h
+
+1423221577 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_pwr.h
+
+1429616266 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/RFM69/rfm69.h
+	"rfm69_table.h"
+	"rfm69_registers.h"
+
+1423221679 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/RFM69/rfm69_table.h
+
+1423221672 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/RFM69/rfm69_registers.h
+	"rfm69_table.h"
+	"rfm69.h"
+
+1423221720 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/RFM69/rfm69.c
+	"stm32f10x_conf.h"
+	"rfm69.h"
+
+1423221665 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md.s
+
+1423221742 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c
+	"stm32f10x.h"
+
+1423221633 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c
+	"misc.h"
+
+1423221633 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1423221726 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1423221655 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1423221755 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1423221735 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1423221786 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1423221662 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/hw_config.c
+	"stm32f10x_conf.h"
+	"stm32f10x.h"
+	"stm32_it.h"
+	"usb_lib.h"
+	"usb_prop.h"
+	"usb_desc.h"
+	"hw_config.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1423221576 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/stm32_it.h
+	"stm32f10x.h"
+
+1423221587 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_prop.h
+
+1423221641 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/stm32_it.c
+	"stm32f10x_conf.h"
+	"hw_config.h"
+	"stm32_it.h"
+	"usb_lib.h"
+	"usb_istr.h"
+
+1423221579 /home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_istr.h
+	"usb_conf.h"
+
+1423221738 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_core.c
+	"usb_lib.h"
+
+1423221585 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_init.c
+	"usb_lib.h"
+
+1423221619 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_int.c
+	"usb_lib.h"
+
+1423221587 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_mem.c
+	"usb_lib.h"
+
+1423221734 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_regs.c
+	"usb_lib.h"
+
+1423221596 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/STM32_USB_FS_Device_Driver/src/usb_sil.c
+	"usb_lib.h"
+
+1423221639 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_desc.c
+	"usb_lib.h"
+	"usb_desc.h"
+
+1423221590 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_endp.c
+	"usb_lib.h"
+	"usb_desc.h"
+	"usb_mem.h"
+	"hw_config.h"
+	"usb_istr.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1423221626 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_istr.c
+	"usb_lib.h"
+	"usb_prop.h"
+	"usb_pwr.h"
+	"usb_istr.h"
+
+1423221689 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_prop.c
+	"usb_lib.h"
+	"usb_conf.h"
+	"usb_prop.h"
+	"usb_desc.h"
+	"usb_pwr.h"
+	"hw_config.h"
+
+1423221662 source:/home/dltech/gdrive/Projects/RFM_to_USB/radiomodem_compact/USB_FS/usb_pwr.c
+	"stm32f10x_conf.h"
+	"usb_lib.h"
+	"usb_conf.h"
+	"usb_pwr.h"
+	"hw_config.h"
+
+1430364221 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/leds/led_byte.c
+	"stm32f10x_conf.h"
+	"leds/led_byte.h"
+
+1422602214 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact//stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1418277596 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h
+	"stm32f10x.h"
+
+1418280928 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1418280716 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1418279151 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmInstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1418279047 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmFunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1418276042 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1418279546 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1418276509 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1418280034 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1418279198 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h
+	"stm32f10x.h"
+
+1418280442 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h
+	"stm32f10x.h"
+
+1418278095 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h
+	"stm32f10x.h"
+
+1430364056 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact//leds/led_byte.h
+
+1430364406 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/main.c
+	"stm32f10x_conf.h"
+	"rfm69.h"
+	"leds/led_byte.h"
+
+1422602214 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1429647129 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/RFM69/rfm69.h
+	"rfm69_table.h"
+	"rfm69_registers.h"
+
+1422734049 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/RFM69/rfm69_table.h
+
+1422734037 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/RFM69/rfm69_registers.h
+	"rfm69_table.h"
+	"rfm69.h"
+
+1430364056 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/leds/led_byte.h
+
+1422734010 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/RFM69/rfm69.c
+	"stm32f10x_conf.h"
+	"rfm69.h"
+
+1418278311 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md.s
+
+1418280187 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c
+	"stm32f10x.h"
+
+1418277661 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c
+	"misc.h"
+
+1418277640 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1418279732 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1418278047 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1418280431 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1418280026 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1418280735 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_compact/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1430364221 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/leds/led_byte.c
+	"stm32f10x_conf.h"
+	"leds/led_byte.h"
+
+1422602214 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master//stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1418277596 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h
+	"stm32f10x.h"
+
+1418280928 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1418280716 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1418279151 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmInstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1418279047 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmFunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1418276042 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1418279546 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1418276509 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1418280034 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1418279198 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h
+	"stm32f10x.h"
+
+1418280442 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h
+	"stm32f10x.h"
+
+1418278095 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h
+	"stm32f10x.h"
+
+1430364056 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master//leds/led_byte.h
+
+1430383765 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/main.c
+	"stm32f10x_conf.h"
+	"rfm69.h"
+	"leds/led_byte.h"
+
+1422602214 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1430383873 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/RFM69/rfm69.h
+	"rfm69_table.h"
+	"rfm69_registers.h"
+
+1422734049 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/RFM69/rfm69_table.h
+
+1422734037 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/RFM69/rfm69_registers.h
+	"rfm69_table.h"
+	"rfm69.h"
+
+1430364056 /home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/leds/led_byte.h
+
+1430385389 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/RFM69/rfm69.c
+	"stm32f10x_conf.h"
+	"rfm69.h"
+	"leds/led_byte.h"
+
+1418278311 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md.s
+
+1418280187 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c
+	"stm32f10x.h"
+
+1418277661 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c
+	"misc.h"
+
+1418277640 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1418279732 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1418278047 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1418280431 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1418280026 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1418280735 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1430364221 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/leds/led_byte.c
+	"stm32f10x_conf.h"
+	"leds/led_byte.h"
+
+1422602214 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master//stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1418277596 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h
+	"stm32f10x.h"
+
+1418280928 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1418280716 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1418279151 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmInstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1418279047 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmFunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1418276042 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1418279546 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1418276509 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1418280034 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1418279198 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h
+	"stm32f10x.h"
+
+1418280442 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h
+	"stm32f10x.h"
+
+1418278095 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h
+	"stm32f10x.h"
+
+1430364056 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master//leds/led_byte.h
+
+1430386096 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/main.c
+	"stm32f10x_conf.h"
+	"hw_config.h"
+	"usb_lib.h"
+	"usb_desc.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1422602214 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1420996827 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/hw_config.h
+	"stm32f10x.h"
+	"usb_type.h"
+
+1418276021 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_type.h
+	"usb_conf.h"
+
+1418276395 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/usb_conf.h
+
+1418276036 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_lib.h
+	"hw_config.h"
+	"usb_type.h"
+	"usb_regs.h"
+	"usb_def.h"
+	"usb_core.h"
+	"usb_init.h"
+	"usb_sil.h"
+	"usb_mem.h"
+	"usb_int.h"
+
+1418280080 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_regs.h
+
+1418276204 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_def.h
+
+1418278209 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_core.h
+
+1418276144 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_init.h
+
+1418276037 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_sil.h
+
+1418276034 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_mem.h
+
+1418275994 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/inc/usb_int.h
+
+1418276226 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/usb_desc.h
+
+1418276096 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/usb_pwr.h
+
+1429647129 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/RFM69/rfm69.h
+	"rfm69_table.h"
+	"rfm69_registers.h"
+
+1422734049 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/RFM69/rfm69_table.h
+
+1422734037 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/RFM69/rfm69_registers.h
+	"rfm69_table.h"
+	"rfm69.h"
+
+1422734010 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/RFM69/rfm69.c
+	"stm32f10x_conf.h"
+	"rfm69.h"
+
+1418278311 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/startup/gcc_ride7/startup_stm32f10x_md.s
+
+1418280187 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.c
+	"stm32f10x.h"
+
+1418277661 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c
+	"misc.h"
+
+1418277640 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c
+	"stm32f10x_exti.h"
+
+1418279732 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c
+	"stm32f10x_gpio.h"
+	"stm32f10x_rcc.h"
+
+1418278047 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+
+1418280431 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c
+	"stm32f10x_rcc.h"
+
+1418280026 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c
+	"stm32f10x_spi.h"
+	"stm32f10x_rcc.h"
+
+1418280735 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c
+	"stm32f10x_tim.h"
+	"stm32f10x_rcc.h"
+
+1420996854 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/hw_config.c
+	"stm32f10x_conf.h"
+	"stm32f10x.h"
+	"stm32_it.h"
+	"usb_lib.h"
+	"usb_prop.h"
+	"usb_desc.h"
+	"hw_config.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1418276048 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/stm32_it.h
+	"stm32f10x.h"
+
+1418276359 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/usb_prop.h
+
+1418277845 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/stm32_it.c
+	"stm32f10x_conf.h"
+	"hw_config.h"
+	"stm32_it.h"
+	"usb_lib.h"
+	"usb_istr.h"
+
+1418276170 /home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/usb_istr.h
+	"usb_conf.h"
+
+1418280081 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/src/usb_core.c
+	"usb_lib.h"
+
+1418276294 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/src/usb_init.c
+	"usb_lib.h"
+
+1418277471 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/src/usb_int.c
+	"usb_lib.h"
+
+1418276361 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/src/usb_mem.c
+	"usb_lib.h"
+
+1418279966 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/src/usb_regs.c
+	"usb_lib.h"
+
+1418276581 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/STM32_USB_FS_Device_Driver/src/usb_sil.c
+	"usb_lib.h"
+
+1418277761 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/usb_desc.c
+	"usb_lib.h"
+	"usb_desc.h"
+
+1418276478 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/usb_endp.c
+	"usb_lib.h"
+	"usb_desc.h"
+	"usb_mem.h"
+	"hw_config.h"
+	"usb_istr.h"
+	"usb_pwr.h"
+	"rfm69.h"
+
+1418277575 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/usb_istr.c
+	"usb_lib.h"
+	"usb_prop.h"
+	"usb_pwr.h"
+	"usb_istr.h"
+
+1418278901 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/usb_prop.c
+	"usb_lib.h"
+	"usb_conf.h"
+	"usb_prop.h"
+	"usb_desc.h"
+	"usb_pwr.h"
+	"hw_config.h"
+
+1418278164 source:/home/dltech-deb/gdrive/Projects/RFM_to_USB/копия radiomodem_leds_master/USB_FS/usb_pwr.c
+	"stm32f10x_conf.h"
+	"usb_lib.h"
+	"usb_conf.h"
+	"usb_pwr.h"
+	"hw_config.h"
+

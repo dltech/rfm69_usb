@@ -1,0 +1,1845 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>RFM69: Файл rfm69.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">RFM69
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li class="current"><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li><a href="globals.html"><span>Список&#160;членов&#160;всех&#160;файлов</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Макросы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Макросы</a> &#124;
+<a href="#enum-members">Перечисления</a> &#124;
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл rfm69.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="rfm69__table_8h_source.html">rfm69_table.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="rfm69__registers_8h_source.html">rfm69_registers.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для rfm69.h:</div>
+<div class="dyncontent">
+<div class="center"><img src="rfm69_8h__incl.png" border="0" usemap="#rfm69_8h" alt=""/></div>
+<map name="rfm69_8h" id="rfm69_8h">
+<area shape="rect" id="node2" href="rfm69__table_8h.html" title="rfm69_table.h" alt="" coords="5,155,107,181"/><area shape="rect" id="node3" href="rfm69__registers_8h.html" title="rfm69_registers.h" alt="" coords="44,80,167,107"/></map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+Граф файлов, в которые включается этот файл:</div>
+<div class="dyncontent">
+<div class="center"><img src="rfm69_8h__dep__incl.png" border="0" usemap="#rfm69_8hdep" alt=""/></div>
+<map name="rfm69_8hdep" id="rfm69_8hdep">
+<area shape="rect" id="node2" href="rfm69_8c.html" title="rfm69.c" alt="" coords="5,80,72,107"/><area shape="rect" id="node3" href="rfm69__registers_8h.html" title="rfm69_registers.h" alt="" coords="96,80,219,107"/></map>
+</div>
+</div>
+<p><a href="rfm69_8h_source.html">См. исходные тексты.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Макросы</h2></td></tr>
+<tr class="memitem:a229f2a64968a508915558a93bca313ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a229f2a64968a508915558a93bca313ba">OOK</a>&#160;&#160;&#160;0x08</td></tr>
+<tr class="separator:a229f2a64968a508915558a93bca313ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac78d98bed794339d6bb0ccdb7490776"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aac78d98bed794339d6bb0ccdb7490776">FSK</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:aac78d98bed794339d6bb0ccdb7490776"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17468d10f0c67a4ee7b38aab09d9e096"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a17468d10f0c67a4ee7b38aab09d9e096">BITRATE</a>&#160;&#160;&#160;9600</td></tr>
+<tr class="separator:a17468d10f0c67a4ee7b38aab09d9e096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fbc13dcb6359fcc5168550fbdc4da41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a8fbc13dcb6359fcc5168550fbdc4da41">CARRIER_FREQ</a>&#160;&#160;&#160;868250000</td></tr>
+<tr class="separator:a8fbc13dcb6359fcc5168550fbdc4da41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ecfe0a45f0d87427cf40cd95789f27"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a23ecfe0a45f0d87427cf40cd95789f27">OUTPUT_POWER</a>&#160;&#160;&#160;13</td></tr>
+<tr class="separator:a23ecfe0a45f0d87427cf40cd95789f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a4e7a01439b700bd3a6becd6dd122e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a4a4e7a01439b700bd3a6becd6dd122e0">RX_BW</a>&#160;&#160;&#160;65</td></tr>
+<tr class="separator:a4a4e7a01439b700bd3a6becd6dd122e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8796d662eb191d6f49e303b9be80e50"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aa8796d662eb191d6f49e303b9be80e50">RX_BW_AFC</a>&#160;&#160;&#160;130</td></tr>
+<tr class="separator:aa8796d662eb191d6f49e303b9be80e50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1aa4d62860693257a8a3e23774063f7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aa1aa4d62860693257a8a3e23774063f7">OCP_CURRENT</a>&#160;&#160;&#160;95</td></tr>
+<tr class="separator:aa1aa4d62860693257a8a3e23774063f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba3e95cbe8265fef1fe26fbad6c425e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aba3e95cbe8265fef1fe26fbad6c425e8">MODUL_TYPE</a>&#160;&#160;&#160;<a class="el" href="rfm69_8h.html#aac78d98bed794339d6bb0ccdb7490776">FSK</a></td></tr>
+<tr class="memdesc:aba3e95cbe8265fef1fe26fbad6c425e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">modulation  <a href="#aba3e95cbe8265fef1fe26fbad6c425e8">Подробнее...</a><br /></td></tr>
+<tr class="separator:aba3e95cbe8265fef1fe26fbad6c425e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3a2e48ea0f22367d9d3a8ba0ba9a273"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ab3a2e48ea0f22367d9d3a8ba0ba9a273">DEVIATION</a>&#160;&#160;&#160;20000</td></tr>
+<tr class="memdesc:ab3a2e48ea0f22367d9d3a8ba0ba9a273"><td class="mdescLeft">&#160;</td><td class="mdescRight">FSK parametres.  <a href="#ab3a2e48ea0f22367d9d3a8ba0ba9a273">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab3a2e48ea0f22367d9d3a8ba0ba9a273"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a661d641b8772cd476fc8c565e5811c65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a661d641b8772cd476fc8c565e5811c65">RISE_FALL_TIME_FSK</a>&#160;&#160;&#160;50</td></tr>
+<tr class="separator:a661d641b8772cd476fc8c565e5811c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad52736561cde4abc627fc5c4aefbbdb1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ad52736561cde4abc627fc5c4aefbbdb1">OOK_PEAK_THRES_STEP</a>&#160;&#160;&#160;1</td></tr>
+<tr class="memdesc:ad52736561cde4abc627fc5c4aefbbdb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">OOK parametres.  <a href="#ad52736561cde4abc627fc5c4aefbbdb1">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad52736561cde4abc627fc5c4aefbbdb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af123b4ef96eb56f98e73951ab76ce314"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#af123b4ef96eb56f98e73951ab76ce314">OOK_PEAK_THRESH_DEC</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:af123b4ef96eb56f98e73951ab76ce314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a06254eb0d3161503e046fcc11dca41"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a8a06254eb0d3161503e046fcc11dca41">OOKFIXEDTHRESH</a>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:a8a06254eb0d3161503e046fcc11dca41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aac8c5098aaf915463fb31715efa09f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a8aac8c5098aaf915463fb31715efa09f">PREAMBLE</a>&#160;&#160;&#160;4</td></tr>
+<tr class="memdesc:a8aac8c5098aaf915463fb31715efa09f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Packet handler configuration.  <a href="#a8aac8c5098aaf915463fb31715efa09f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8aac8c5098aaf915463fb31715efa09f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d00740963c7c134022150ed22a0b4d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a1d00740963c7c134022150ed22a0b4d6">SYNC_WORD_SIZE</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a1d00740963c7c134022150ed22a0b4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e9af6b370e370158949ba1f4d064a38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a>&#160;&#160;&#160;0x753be1ca753be1ca</td></tr>
+<tr class="separator:a3e9af6b370e370158949ba1f4d064a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5ef4e3b214d51b79955ceae88e5c4d6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ab5ef4e3b214d51b79955ceae88e5c4d6">SYNCTOL</a>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:ab5ef4e3b214d51b79955ceae88e5c4d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bc8a54deffcad2b8b0818b86247312a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a4bc8a54deffcad2b8b0818b86247312a">RX_ADDRESS</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="separator:a4bc8a54deffcad2b8b0818b86247312a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a294b587d460b14170d2ce3f4da9083ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a294b587d460b14170d2ce3f4da9083ce">BROADCAST_ADDRESS</a>&#160;&#160;&#160;0xff</td></tr>
+<tr class="separator:a294b587d460b14170d2ce3f4da9083ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba9ab8b974eb6b97f9af00011e846fca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aba9ab8b974eb6b97f9af00011e846fca">AUTO_RESTART_RX_DELAY</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:aba9ab8b974eb6b97f9af00011e846fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c6750b0738c6a321a0253280aea73cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a8c6750b0738c6a321a0253280aea73cd">RSSI_THRESH</a>&#160;&#160;&#160;88</td></tr>
+<tr class="separator:a8c6750b0738c6a321a0253280aea73cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d44477546ebc96920125d612e718b10"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a7d44477546ebc96920125d612e718b10">FIFO_THRESHOLD</a>&#160;&#160;&#160;32</td></tr>
+<tr class="separator:a7d44477546ebc96920125d612e718b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53532033984f6c3768b7f0198559bf2e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a53532033984f6c3768b7f0198559bf2e">CUT_OFF_FREQ</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a53532033984f6c3768b7f0198559bf2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a852de8dab119942f450faa8722897b5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a852de8dab119942f450faa8722897b5b">CUT_OFF_FREQ_AFC</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a852de8dab119942f450faa8722897b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a108423b4512abbd8ed01ddfe33955fd4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a108423b4512abbd8ed01ddfe33955fd4">FXOSC</a>&#160;&#160;&#160;32000000</td></tr>
+<tr class="separator:a108423b4512abbd8ed01ddfe33955fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5e22694322d48a9607f13bb9a4c6f4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aef5e22694322d48a9607f13bb9a4c6f4">FSTEP</a>&#160;&#160;&#160;61</td></tr>
+<tr class="separator:aef5e22694322d48a9607f13bb9a4c6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a598a3330b3c21701223ee0ca14316eca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a598a3330b3c21701223ee0ca14316eca">PI</a>&#160;&#160;&#160;3.14159265359</td></tr>
+<tr class="separator:a598a3330b3c21701223ee0ca14316eca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd27d3134ce6a92819d177152bc875b7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#afd27d3134ce6a92819d177152bc875b7">RFM69_BUFFER_SIZE</a>&#160;&#160;&#160;66</td></tr>
+<tr class="separator:afd27d3134ce6a92819d177152bc875b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa481f70837b530fa4f47a97a39e99315"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aa481f70837b530fa4f47a97a39e99315">REGOPMODE_DEF</a>&#160;&#160;&#160;( 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ad34e500db60585f5c256b04bd898ebba">SEQUENCEROFF</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ac873ed4655b1b8770ef2994e5c02c5d7">LISTENON</a> | <a class="el" href="rfm69__registers_8h.html#a6097218fc13c9936e96507d6fd9fafe0">SLEEP_MODE</a> )</td></tr>
+<tr class="separator:aa481f70837b530fa4f47a97a39e99315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24e619d07fe3e5facc0f32f6d8b759d4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a24e619d07fe3e5facc0f32f6d8b759d4">REGDATAMODUL_DEF</a>&#160;&#160;&#160;( <a class="el" href="rfm69__registers_8h.html#a366d2e1ca64909f289bde16361b6fd07">PACKET_MODE</a> | <a class="el" href="rfm69_8h.html#aba3e95cbe8265fef1fe26fbad6c425e8">MODUL_TYPE</a> | <a class="el" href="rfm69__registers_8h.html#a4a70bc27906df4705fba032b0bcec59b">GAUSS_BT10</a> )</td></tr>
+<tr class="separator:a24e619d07fe3e5facc0f32f6d8b759d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2a7039f469e7855b4308a3ed6f4a4a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ace2a7039f469e7855b4308a3ed6f4a4a">REGFDEVMSB_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69__registers_8h.html#a77666bfe5e6e90bb35003fa957f9ec6f">FDEV_CALC</a>(<a class="el" href="rfm69_8h.html#ab3a2e48ea0f22367d9d3a8ba0ba9a273">DEVIATION</a>) &amp; 0xff00) &gt;&gt; 8 )</td></tr>
+<tr class="separator:ace2a7039f469e7855b4308a3ed6f4a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd474d90ee06120e80cd844389c8d73"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#afdd474d90ee06120e80cd844389c8d73">REGFDEVLSB_DEF</a>&#160;&#160;&#160;(  <a class="el" href="rfm69__registers_8h.html#a77666bfe5e6e90bb35003fa957f9ec6f">FDEV_CALC</a>(<a class="el" href="rfm69_8h.html#ab3a2e48ea0f22367d9d3a8ba0ba9a273">DEVIATION</a>) &amp; 0x00ff )</td></tr>
+<tr class="separator:afdd474d90ee06120e80cd844389c8d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d47227ea1b41e85a8ed141f355ad32e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a0d47227ea1b41e85a8ed141f355ad32e">REGBITRATEMSB_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69__registers_8h.html#ac1ae7970d0dcf267a7a5ca51687d97fe">BITRATE_CALC</a>(<a class="el" href="rfm69_8h.html#a17468d10f0c67a4ee7b38aab09d9e096">BITRATE</a>) &amp; 0xff00) &gt;&gt; 8 )</td></tr>
+<tr class="separator:a0d47227ea1b41e85a8ed141f355ad32e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a059f8fd70a7d8cefa34bbf0bc0bbcaef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a059f8fd70a7d8cefa34bbf0bc0bbcaef">REGBITRATELSB_DEF</a>&#160;&#160;&#160;(  <a class="el" href="rfm69__registers_8h.html#ac1ae7970d0dcf267a7a5ca51687d97fe">BITRATE_CALC</a>(<a class="el" href="rfm69_8h.html#a17468d10f0c67a4ee7b38aab09d9e096">BITRATE</a>) &amp; 0x00ff )</td></tr>
+<tr class="separator:a059f8fd70a7d8cefa34bbf0bc0bbcaef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c20d269c21c060a659e69102a6d095c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a1c20d269c21c060a659e69102a6d095c">REGFRFMSB_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69__registers_8h.html#ae902e7a3545149f07d33ebeea9e3ba11">FRF_CALC</a>(<a class="el" href="rfm69_8h.html#a8fbc13dcb6359fcc5168550fbdc4da41">CARRIER_FREQ</a>) &amp; 0xff0000) &gt;&gt; 16 )</td></tr>
+<tr class="separator:a1c20d269c21c060a659e69102a6d095c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d73304222c089ef07081fe2481ebf7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aa1d73304222c089ef07081fe2481ebf7">REGFRFMID_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69__registers_8h.html#ae902e7a3545149f07d33ebeea9e3ba11">FRF_CALC</a>(<a class="el" href="rfm69_8h.html#a8fbc13dcb6359fcc5168550fbdc4da41">CARRIER_FREQ</a>) &amp; 0x00ff00) &gt;&gt; 8 )</td></tr>
+<tr class="separator:aa1d73304222c089ef07081fe2481ebf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad391d879f9a8f94ff1f6b613389eaa9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aad391d879f9a8f94ff1f6b613389eaa9">REGFRFLSB_DEF</a>&#160;&#160;&#160;(  <a class="el" href="rfm69__registers_8h.html#ae902e7a3545149f07d33ebeea9e3ba11">FRF_CALC</a>(<a class="el" href="rfm69_8h.html#a8fbc13dcb6359fcc5168550fbdc4da41">CARRIER_FREQ</a>) &amp; 0x0000ff )</td></tr>
+<tr class="separator:aad391d879f9a8f94ff1f6b613389eaa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37446f6c54ea6ee20ae9d1490e259ae4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a37446f6c54ea6ee20ae9d1490e259ae4">REGAFCCTRL_DEF</a>&#160;&#160;&#160;( 0&lt;&lt;(<a class="el" href="rfm69__registers_8h.html#ad5d2eba8b4963a97848a746ba9094346">AFCLOWBETAON</a>) )</td></tr>
+<tr class="separator:a37446f6c54ea6ee20ae9d1490e259ae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac466d41919e6f9a9abb07dee89e5e509"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ac466d41919e6f9a9abb07dee89e5e509">REGLISTEN1_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:ac466d41919e6f9a9abb07dee89e5e509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744e206075b979d38857e336efefa838"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a744e206075b979d38857e336efefa838">REGLISTEN2_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a744e206075b979d38857e336efefa838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ca27af91cffe9a96dc6059cde3af76"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a10ca27af91cffe9a96dc6059cde3af76">REGLISTEN3_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a10ca27af91cffe9a96dc6059cde3af76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a6fb558c267560bca4250e1c3b7f099"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a4a6fb558c267560bca4250e1c3b7f099">REGPALEVEL_DEF</a>&#160;&#160;&#160;( 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a1349892a7adac828df5ab3a395e557e0">PA0ON</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a0048b53a5557ee80b7792fde9f976ba5">PA1ON</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ae5a87eb57ec917fd5b5fe4083875e19a">PA2ON</a> | (<a class="el" href="rfm69__registers_8h.html#acb5c8c4439d716b93a8d4767ac398e60">OUT_POWER_CALC</a>(<a class="el" href="rfm69_8h.html#a23ecfe0a45f0d87427cf40cd95789f27">OUTPUT_POWER</a>)) )</td></tr>
+<tr class="separator:a4a6fb558c267560bca4250e1c3b7f099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bbce267488fbde0e103bd7895425a48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a6bbce267488fbde0e103bd7895425a48">REGPARAMP_DEF</a>&#160;&#160;&#160;( <a class="el" href="rfm69__table_8h.html#ab1c78669a770ddfb58e99c063225f32f">PARAMP</a> )</td></tr>
+<tr class="separator:a6bbce267488fbde0e103bd7895425a48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37f49e9dab08064c9bbbd9adadcc7206"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a37f49e9dab08064c9bbbd9adadcc7206">REGOCP_DEF</a>&#160;&#160;&#160;( 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a241fa810dd7c750734cf4d02893a8aaf">OCPON</a>	| (<a class="el" href="rfm69__registers_8h.html#aedcc657b574a4c9f7956f94ad2e65d4a">OCP_CURRENT_CALC</a>(<a class="el" href="rfm69_8h.html#aa1aa4d62860693257a8a3e23774063f7">OCP_CURRENT</a>)) )</td></tr>
+<tr class="separator:a37f49e9dab08064c9bbbd9adadcc7206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab155c7ec3074d618035101f097a0d734"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ab155c7ec3074d618035101f097a0d734">REGLNA_DEF</a>&#160;&#160;&#160;( 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a95610ecbca4757054e9becc0f6da8001">LNAZIN</a> | <a class="el" href="rfm69__registers_8h.html#a49a78405e3eb02eaf9ffc105a608f478">LNAGAIN_AUTO</a> )</td></tr>
+<tr class="separator:ab155c7ec3074d618035101f097a0d734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae21147f19d0a85394abdb4cdf6d6f099"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ae21147f19d0a85394abdb4cdf6d6f099">REGRXBW_DEF</a>&#160;&#160;&#160;( DCCFREQ | <a class="el" href="rfm69__table_8h.html#ade419dfc07a685580dd336aa324f17ad">RXBW</a> )</td></tr>
+<tr class="separator:ae21147f19d0a85394abdb4cdf6d6f099"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83bd804449c3b53827fb334ed871c2ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a83bd804449c3b53827fb334ed871c2ef">REGAFCBW_DEF</a>&#160;&#160;&#160;( DCCFREQAFC | RXBWAFC )</td></tr>
+<tr class="separator:a83bd804449c3b53827fb334ed871c2ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b4a58302244d924e5fe1c0fa676b143"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a4b4a58302244d924e5fe1c0fa676b143">REGOOKPEAK_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a4b4a58302244d924e5fe1c0fa676b143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae85fcceb41012504b3939be585b76646"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ae85fcceb41012504b3939be585b76646">REGOOKAVG_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:ae85fcceb41012504b3939be585b76646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b5a4d8e8e8842be6c606481af7c691d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a8b5a4d8e8e8842be6c606481af7c691d">REGOOKFIX_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a8b5a4d8e8e8842be6c606481af7c691d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3549c6f967228085201f21c160e5e24a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a3549c6f967228085201f21c160e5e24a">REGAFCFEI_DEF</a>&#160;&#160;&#160;( (1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ac3f3f8de47d947af91e9b12e8a461e2c">AFCAUTOCLEAR</a>) | (1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ab65fcdba5953290d2b432eab78862c90">AFCAUTOON</a>) )</td></tr>
+<tr class="separator:a3549c6f967228085201f21c160e5e24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49498083cf536aa97ac7013559e62f80"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a49498083cf536aa97ac7013559e62f80">REGDIOMAPPING1_DEF</a>&#160;&#160;&#160;( <a class="el" href="rfm69__registers_8h.html#a4f3496e7ca63e021951eb2710254afa1">DIO0MAP0</a> | <a class="el" href="rfm69__registers_8h.html#a45c774244e4f9ecc7b74c3d27c3c9e25">DIO1MAP0</a> | <a class="el" href="rfm69__registers_8h.html#a3247a01dec1629f6cb03b84784d84bbe">DIO2MAP2</a> | <a class="el" href="rfm69__registers_8h.html#af9f9c18fc5ead63d4aaa535177542834">DIO3MAP1</a> )</td></tr>
+<tr class="separator:a49498083cf536aa97ac7013559e62f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0ffae0f96a59ee7baffe72d2103b821"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aa0ffae0f96a59ee7baffe72d2103b821">REGDIOMAPPING2_DEF</a>&#160;&#160;&#160;( <a class="el" href="rfm69__registers_8h.html#a72f94132418287bf937d1d3bbd4becb4">DIO5MAP0</a> | <a class="el" href="rfm69__registers_8h.html#ac9da285bce38f36312291a81815b7f09">CLKOUT8M</a> )</td></tr>
+<tr class="separator:aa0ffae0f96a59ee7baffe72d2103b821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88592234f9104d00e24fb7cb02ffddb3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a88592234f9104d00e24fb7cb02ffddb3">REGRSSITHRESH_DEF</a>&#160;&#160;&#160;( <a class="el" href="rfm69__registers_8h.html#aab1351f68c4bd1865fae376734674afd">RSSI_THRESH_CALC</a>(<a class="el" href="rfm69_8h.html#a8c6750b0738c6a321a0253280aea73cd">RSSI_THRESH</a>) )</td></tr>
+<tr class="separator:a88592234f9104d00e24fb7cb02ffddb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41db30e231f76a5d2d04fb9464682221"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a41db30e231f76a5d2d04fb9464682221">REGPREAMBLEMSB_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a8aac8c5098aaf915463fb31715efa09f">PREAMBLE</a> &amp; 0xff00) &gt;&gt; 8 )</td></tr>
+<tr class="separator:a41db30e231f76a5d2d04fb9464682221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36c1e97cbe8818ea8ce402f81c3e426f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a36c1e97cbe8818ea8ce402f81c3e426f">REGPREAMBLELSB_DEF</a>&#160;&#160;&#160;( <a class="el" href="rfm69_8h.html#a8aac8c5098aaf915463fb31715efa09f">PREAMBLE</a> &amp; 0x00ff )</td></tr>
+<tr class="separator:a36c1e97cbe8818ea8ce402f81c3e426f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad45d749cfbd080b1ade430d184259665"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ad45d749cfbd080b1ade430d184259665">REGSYNCCONFIG_DEF</a>&#160;&#160;&#160;( <a class="el" href="rfm69__registers_8h.html#ae106483494497c8026ab22e1ef8fcdf6">SYNC_WORD_ON</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ad5136933340ac95954fc304b58fc005c">FIFOFILLCOND</a> | <a class="el" href="rfm69__registers_8h.html#acd179fc969c2f0e41b6bd5e1aa7906f1">SYNCSIZE_CALC</a>(<a class="el" href="rfm69_8h.html#a1d00740963c7c134022150ed22a0b4d6">SYNC_WORD_SIZE</a>) | (<a class="el" href="rfm69_8h.html#ab5ef4e3b214d51b79955ceae88e5c4d6">SYNCTOL</a>&amp;0x07) )</td></tr>
+<tr class="separator:ad45d749cfbd080b1ade430d184259665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8b6a0817157e19c1459b528609bef6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#abb8b6a0817157e19c1459b528609bef6">REGSYNCVALUE1_DEF</a>&#160;&#160;&#160;(  <a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x00000000000000ff )</td></tr>
+<tr class="separator:abb8b6a0817157e19c1459b528609bef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5938c1eed62833fd33833926b605daad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a5938c1eed62833fd33833926b605daad">REGSYNCVALUE2_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x000000000000ff00) &gt;&gt; 8 )</td></tr>
+<tr class="separator:a5938c1eed62833fd33833926b605daad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4146486356d6d599ac7ab25367edf2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a3e4146486356d6d599ac7ab25367edf2">REGSYNCVALUE3_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x0000000000ff0000) &gt;&gt; 16 )</td></tr>
+<tr class="separator:a3e4146486356d6d599ac7ab25367edf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc875d0068b61df3a073cda2e3f92c7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a2cc875d0068b61df3a073cda2e3f92c7">REGSYNCVALUE4_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x00000000ff000000) &gt;&gt; 24 )</td></tr>
+<tr class="separator:a2cc875d0068b61df3a073cda2e3f92c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae75d99c6b7e350e913fadad0ba291f8b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ae75d99c6b7e350e913fadad0ba291f8b">REGSYNCVALUE5_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x000000ff00000000) &gt;&gt; 32 )</td></tr>
+<tr class="separator:ae75d99c6b7e350e913fadad0ba291f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a621156521341eaef210ff6b989b558e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a621156521341eaef210ff6b989b558e8">REGSYNCVALUE6_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x0000ff0000000000) &gt;&gt; 40 )</td></tr>
+<tr class="separator:a621156521341eaef210ff6b989b558e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4964b030f4dcb285357b3b2e14f6a846"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a4964b030f4dcb285357b3b2e14f6a846">REGSYNCVALUE7_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x00ff000000000000) &gt;&gt; 48 )</td></tr>
+<tr class="separator:a4964b030f4dcb285357b3b2e14f6a846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a73edb0344f2832c428d70efc4c93b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a0a73edb0344f2832c428d70efc4c93b2">REGSYNCVALUE8_DEF</a>&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0xff00000000000000) &gt;&gt; 56 )</td></tr>
+<tr class="separator:a0a73edb0344f2832c428d70efc4c93b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4edc7c51a6b7019f02aaac0153cfe291"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a4edc7c51a6b7019f02aaac0153cfe291">REGPACKETCONFIG1_DEF</a>&#160;&#160;&#160;( 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a5db0212961ff5494d1c9d6efdcf03730">PACKETFORMAT</a> | <a class="el" href="rfm69__registers_8h.html#a15df7bdfa2cb6787bd141aefc0f93e12">ENCODING_OFF</a> | 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a73c706d20d14f72e4864392b4bad9799">CRCON</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ad5bfb4aedaab8eef409e4e7838caa375">CRCAUTOCLEAROFF</a> | <a class="el" href="rfm69__registers_8h.html#ab3f7692a1ea401ba18ca18246ebef425">NODE_BROADCAST_ADDR</a>)</td></tr>
+<tr class="separator:a4edc7c51a6b7019f02aaac0153cfe291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac435942286d0fbaa4a2348b1d6b03149"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ac435942286d0fbaa4a2348b1d6b03149">REGPAYLOADLENGHT_DEF</a>&#160;&#160;&#160;( 0xff )</td></tr>
+<tr class="separator:ac435942286d0fbaa4a2348b1d6b03149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf240a368a432961a78b49c8929d9cf8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#acf240a368a432961a78b49c8929d9cf8">REGNODEADRS_DEF</a>&#160;&#160;&#160;( <a class="el" href="rfm69_8h.html#a4bc8a54deffcad2b8b0818b86247312a">RX_ADDRESS</a> )</td></tr>
+<tr class="separator:acf240a368a432961a78b49c8929d9cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a04d199c1544c555dee9cfe22b493c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a32a04d199c1544c555dee9cfe22b493c">REGBROADCASTADRS_DEF</a>&#160;&#160;&#160;( <a class="el" href="rfm69_8h.html#a294b587d460b14170d2ce3f4da9083ce">BROADCAST_ADDRESS</a> )</td></tr>
+<tr class="separator:a32a04d199c1544c555dee9cfe22b493c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca98589141cfeb6c3e890100a20f4e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#adca98589141cfeb6c3e890100a20f4e6">REGAUTOMODES_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:adca98589141cfeb6c3e890100a20f4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f5b2e2d127d5b33010280ef26bbad3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a80f5b2e2d127d5b33010280ef26bbad3">REGFIFOTHRES_DEF</a>&#160;&#160;&#160;( 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a7500b77df8de3795a4eb235ed24c70f3">TXSTARTCOND</a> | (<a class="el" href="rfm69_8h.html#a7d44477546ebc96920125d612e718b10">FIFO_THRESHOLD</a>&amp;0x7f) )</td></tr>
+<tr class="separator:a80f5b2e2d127d5b33010280ef26bbad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b312d3af71aabaa16ac6bccd20e56c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a8b312d3af71aabaa16ac6bccd20e56c8">REGPACKETCONFIG2_DEF</a>&#160;&#160;&#160;( <a class="el" href="rfm69__table_8h.html#aa2f9059f987d6088a0b77a2af76e3ab2">INTERPACKETRXDELAY</a> | 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a2056d2ccf745e838f1436ce70d8e81ff">AUTORXRESTARTON</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a329c471460a05db1a3cfb2c357465529">AESON</a> )</td></tr>
+<tr class="separator:a8b312d3af71aabaa16ac6bccd20e56c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b4bd5e1c812d2c0c4fc175f7416804"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a41b4bd5e1c812d2c0c4fc175f7416804">REGAESKEY1_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a41b4bd5e1c812d2c0c4fc175f7416804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b13a3ea9b82e96d01fb76ede373578"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a81b13a3ea9b82e96d01fb76ede373578">REGAESKEY2_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a81b13a3ea9b82e96d01fb76ede373578"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f16df0f4a3c405ce57bb25441a34f2f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a5f16df0f4a3c405ce57bb25441a34f2f">REGAESKEY3_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a5f16df0f4a3c405ce57bb25441a34f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a743a411748a454195cd543fd3fa2e80f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a743a411748a454195cd543fd3fa2e80f">REGAESKEY4_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a743a411748a454195cd543fd3fa2e80f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8689cd7abb93ca0f9548aa8e704f81d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ad8689cd7abb93ca0f9548aa8e704f81d">REGAESKEY5_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:ad8689cd7abb93ca0f9548aa8e704f81d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6bf8865dda1078012bb86e903034f46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ac6bf8865dda1078012bb86e903034f46">REGAESKEY6_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:ac6bf8865dda1078012bb86e903034f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd145bb3bbc38eae1921221e10dca955"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#afd145bb3bbc38eae1921221e10dca955">REGAESKEY7_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:afd145bb3bbc38eae1921221e10dca955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ef01a4b58d93969d9e780dd1feb81b5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a3ef01a4b58d93969d9e780dd1feb81b5">REGAESKEY8_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a3ef01a4b58d93969d9e780dd1feb81b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af75dd93e24e4c14c6467cf2be42f8fd4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#af75dd93e24e4c14c6467cf2be42f8fd4">REGAESKEY9_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:af75dd93e24e4c14c6467cf2be42f8fd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac549a0a5b4d2bac59255f57236f2a991"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ac549a0a5b4d2bac59255f57236f2a991">REGAESKEY10_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:ac549a0a5b4d2bac59255f57236f2a991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a557d80768e46c07e52b68e79b9245f85"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a557d80768e46c07e52b68e79b9245f85">REGAESKEY11_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a557d80768e46c07e52b68e79b9245f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab4399dffd4d837bc1c7aedc8df01ef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a6ab4399dffd4d837bc1c7aedc8df01ef">REGAESKEY12_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a6ab4399dffd4d837bc1c7aedc8df01ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a321d435524c9ce359d633b5b00e659f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a321d435524c9ce359d633b5b00e659f1">REGAESKEY13_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a321d435524c9ce359d633b5b00e659f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ebc9cd28d516436e5acaf720533842d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a2ebc9cd28d516436e5acaf720533842d">REGAESKEY14_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a2ebc9cd28d516436e5acaf720533842d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a684147b2e747d9ef12fc7fee45284bc0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a684147b2e747d9ef12fc7fee45284bc0">REGAESKEY15_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a684147b2e747d9ef12fc7fee45284bc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e15c31c6e1f43c5c48583920f3f039"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a94e15c31c6e1f43c5c48583920f3f039">REGAESKEY16_DEF</a>&#160;&#160;&#160;( 0x00 )</td></tr>
+<tr class="separator:a94e15c31c6e1f43c5c48583920f3f039"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d5d5f54264410cda15c20060e6265cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a9d5d5f54264410cda15c20060e6265cd">CRCOK_PKSent_Line</a>&#160;&#160;&#160;EXTI_Line2</td></tr>
+<tr class="separator:a9d5d5f54264410cda15c20060e6265cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804ae6b1a8127fc52b4f6742cbbb03f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a804ae6b1a8127fc52b4f6742cbbb03f2">FifoLevel_Line</a>&#160;&#160;&#160;EXTI_Line1</td></tr>
+<tr class="separator:a804ae6b1a8127fc52b4f6742cbbb03f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e0536e23e13affa9c84d6f6259172d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ab9e0536e23e13affa9c84d6f6259172d">SyncAddr_Line</a>&#160;&#160;&#160;EXTI_Line0</td></tr>
+<tr class="separator:ab9e0536e23e13affa9c84d6f6259172d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bce2f7b28914b649b55dc779c66838a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a8bce2f7b28914b649b55dc779c66838a">NSS_Port</a>&#160;&#160;&#160;GPIOA</td></tr>
+<tr class="separator:a8bce2f7b28914b649b55dc779c66838a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedbee85879aa9a3d494f0502ad1f82cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aedbee85879aa9a3d494f0502ad1f82cd">NSS_Pin</a>&#160;&#160;&#160;GPIO_Pin_3</td></tr>
+<tr class="separator:aedbee85879aa9a3d494f0502ad1f82cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af402a3554782ca9b66273776a516cdc9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#af402a3554782ca9b66273776a516cdc9">EXTI_Port1</a>&#160;&#160;&#160;GPIO_PortSourceGPIOB</td></tr>
+<tr class="separator:af402a3554782ca9b66273776a516cdc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdefc677cae2122279f3aeeb3f6cb3c8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#afdefc677cae2122279f3aeeb3f6cb3c8">EXTI_Port23</a>&#160;&#160;&#160;GPIO_PortSourceGPIOA</td></tr>
+<tr class="separator:afdefc677cae2122279f3aeeb3f6cb3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83302997180949ef0538ffaaacf1d832"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a83302997180949ef0538ffaaacf1d832">EXTI_Pin1</a>&#160;&#160;&#160;GPIO_PinSource0</td></tr>
+<tr class="separator:a83302997180949ef0538ffaaacf1d832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7021fc9bc0f7bf9e98ba7264b2e5cbff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a7021fc9bc0f7bf9e98ba7264b2e5cbff">EXTI_Pin2</a>&#160;&#160;&#160;GPIO_PinSource1</td></tr>
+<tr class="separator:a7021fc9bc0f7bf9e98ba7264b2e5cbff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e8a49e0edf0710a362ba4efa8f6533"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a13e8a49e0edf0710a362ba4efa8f6533">EXTI_Pin3</a>&#160;&#160;&#160;GPIO_PinSource2</td></tr>
+<tr class="separator:a13e8a49e0edf0710a362ba4efa8f6533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add1b7df122f5f0dc96eb8dfd3d0a80ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#add1b7df122f5f0dc96eb8dfd3d0a80ff">RFM69_SYNCADDR_PERIOD</a>&#160;&#160;&#160;<a class="el" href="rfm69_8h.html#a8aac8c5098aaf915463fb31715efa09f">PREAMBLE</a> + <a class="el" href="rfm69_8h.html#a1d00740963c7c134022150ed22a0b4d6">SYNC_WORD_SIZE</a> + 1</td></tr>
+<tr class="separator:add1b7df122f5f0dc96eb8dfd3d0a80ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Перечисления</h2></td></tr>
+<tr class="memitem:a06fc87d81c62e9abb8790b6e5713c55b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <br />
+&#160;&#160;<a class="el" href="rfm69_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba100341cd68397fd697b86439b4aca9ed">RFM69_SPI_FAILED</a> = 1, 
+<a class="el" href="rfm69_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba0f464bbbdc9e2e6795f713e194521c3d">RFM69_SLEEP</a>, 
+<a class="el" href="rfm69_8h.html#a06fc87d81c62e9abb8790b6e5713c55bace14731600372a2f328a5cd727570fbc">RFM69_STBY</a>, 
+<a class="el" href="rfm69_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba778608da6788aae63668b8511bba32a1">RFM69_RX</a>, 
+<br />
+&#160;&#160;<a class="el" href="rfm69_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba289aded594cf744abe36d6126736a06e">RFM69_TX</a>, 
+<a class="el" href="rfm69_8h.html#a06fc87d81c62e9abb8790b6e5713c55badc0a15b8d6e072ff02e1e89e35a73226">RFM69_NEW_PACK</a>
+<br />
+ }</td></tr>
+<tr class="separator:a06fc87d81c62e9abb8790b6e5713c55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:a14af22393b087d109032f1cf718def90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a14af22393b087d109032f1cf718def90">rfm69_write</a> (uint8_t address, uint8_t data)</td></tr>
+<tr class="separator:a14af22393b087d109032f1cf718def90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2ff4e053c9b555d2192ba3f9af9f5f9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ad2ff4e053c9b555d2192ba3f9af9f5f9">rfm69_read</a> (uint8_t address)</td></tr>
+<tr class="separator:ad2ff4e053c9b555d2192ba3f9af9f5f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8adfd3a25fb7fd945fe54b25584f391"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#af8adfd3a25fb7fd945fe54b25584f391">rfm69_write_burst</a> (uint8_t address, uint8_t *data, uint8_t ndata)</td></tr>
+<tr class="separator:af8adfd3a25fb7fd945fe54b25584f391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf29915020979cbcb1543723e0d1ad09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#aaf29915020979cbcb1543723e0d1ad09">rfm69_read_burst</a> (uint8_t address, uint8_t *data, uint8_t ndata)</td></tr>
+<tr class="separator:aaf29915020979cbcb1543723e0d1ad09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc18010357577c61751d565f276ec047"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#afc18010357577c61751d565f276ec047">rfm69_mcu_init</a> (void)</td></tr>
+<tr class="separator:afc18010357577c61751d565f276ec047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc9264ee91effa67d4c368944cd2f8a3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#afc9264ee91effa67d4c368944cd2f8a3">rfm69_init</a> (void)</td></tr>
+<tr class="separator:afc9264ee91effa67d4c368944cd2f8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13883b87b275d312974ef052cdccef86"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a13883b87b275d312974ef052cdccef86">rfm69_transmit_start</a> (uint8_t <a class="el" href="rfm69_8c.html#aee3ef59ff651fe7e6a9c273affdd5d5a">packet_size</a>, uint8_t address)</td></tr>
+<tr class="separator:a13883b87b275d312974ef052cdccef86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c042a6544571244615b711a6e7550c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a3c042a6544571244615b711a6e7550c7">rfm69_receive_start</a> (void)</td></tr>
+<tr class="separator:a3c042a6544571244615b711a6e7550c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac20aaa7a3c508b5086719841909aa059"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#ac20aaa7a3c508b5086719841909aa059">rfm69_receive_small_packet</a> (void)</td></tr>
+<tr class="separator:ac20aaa7a3c508b5086719841909aa059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91f032713bffeee705aeff45e4e8ecbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a91f032713bffeee705aeff45e4e8ecbc">rfm69_sleep</a> (void)</td></tr>
+<tr class="separator:a91f032713bffeee705aeff45e4e8ecbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76b7b034cdcbc1d12611ad48a3cfe623"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a76b7b034cdcbc1d12611ad48a3cfe623">rfm69_stby</a> (void)</td></tr>
+<tr class="separator:a76b7b034cdcbc1d12611ad48a3cfe623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a676f160363c34f0bf2638dded13638d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="rfm69_8h.html#a676f160363c34f0bf2638dded13638d7">rfm69_clear_fifo</a> (void)</td></tr>
+<tr class="separator:a676f160363c34f0bf2638dded13638d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Макросы</h2>
+<a class="anchor" id="aba9ab8b974eb6b97f9af00011e846fca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define AUTO_RESTART_RX_DELAY&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a17468d10f0c67a4ee7b38aab09d9e096"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BITRATE&#160;&#160;&#160;9600</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a294b587d460b14170d2ce3f4da9083ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define BROADCAST_ADDRESS&#160;&#160;&#160;0xff</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8fbc13dcb6359fcc5168550fbdc4da41"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CARRIER_FREQ&#160;&#160;&#160;868250000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9d5d5f54264410cda15c20060e6265cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CRCOK_PKSent_Line&#160;&#160;&#160;EXTI_Line2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a53532033984f6c3768b7f0198559bf2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CUT_OFF_FREQ&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a852de8dab119942f450faa8722897b5b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CUT_OFF_FREQ_AFC&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab3a2e48ea0f22367d9d3a8ba0ba9a273"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DEVIATION&#160;&#160;&#160;20000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>FSK parametres. </p>
+
+</div>
+</div>
+<a class="anchor" id="a83302997180949ef0538ffaaacf1d832"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXTI_Pin1&#160;&#160;&#160;GPIO_PinSource0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7021fc9bc0f7bf9e98ba7264b2e5cbff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXTI_Pin2&#160;&#160;&#160;GPIO_PinSource1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a13e8a49e0edf0710a362ba4efa8f6533"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXTI_Pin3&#160;&#160;&#160;GPIO_PinSource2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af402a3554782ca9b66273776a516cdc9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXTI_Port1&#160;&#160;&#160;GPIO_PortSourceGPIOB</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afdefc677cae2122279f3aeeb3f6cb3c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EXTI_Port23&#160;&#160;&#160;GPIO_PortSourceGPIOA</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7d44477546ebc96920125d612e718b10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FIFO_THRESHOLD&#160;&#160;&#160;32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a804ae6b1a8127fc52b4f6742cbbb03f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FifoLevel_Line&#160;&#160;&#160;EXTI_Line1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aac78d98bed794339d6bb0ccdb7490776"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FSK&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aef5e22694322d48a9607f13bb9a4c6f4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FSTEP&#160;&#160;&#160;61</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a108423b4512abbd8ed01ddfe33955fd4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FXOSC&#160;&#160;&#160;32000000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aba3e95cbe8265fef1fe26fbad6c425e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MODUL_TYPE&#160;&#160;&#160;<a class="el" href="rfm69_8h.html#aac78d98bed794339d6bb0ccdb7490776">FSK</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>modulation </p>
+
+</div>
+</div>
+<a class="anchor" id="aedbee85879aa9a3d494f0502ad1f82cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NSS_Pin&#160;&#160;&#160;GPIO_Pin_3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8bce2f7b28914b649b55dc779c66838a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NSS_Port&#160;&#160;&#160;GPIOA</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa1aa4d62860693257a8a3e23774063f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OCP_CURRENT&#160;&#160;&#160;95</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a229f2a64968a508915558a93bca313ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OOK&#160;&#160;&#160;0x08</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad52736561cde4abc627fc5c4aefbbdb1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OOK_PEAK_THRES_STEP&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>OOK parametres. </p>
+
+</div>
+</div>
+<a class="anchor" id="af123b4ef96eb56f98e73951ab76ce314"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OOK_PEAK_THRESH_DEC&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8a06254eb0d3161503e046fcc11dca41"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OOKFIXEDTHRESH&#160;&#160;&#160;6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a23ecfe0a45f0d87427cf40cd95789f27"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OUTPUT_POWER&#160;&#160;&#160;13</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a598a3330b3c21701223ee0ca14316eca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PI&#160;&#160;&#160;3.14159265359</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8aac8c5098aaf915463fb31715efa09f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PREAMBLE&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Packet handler configuration. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac549a0a5b4d2bac59255f57236f2a991"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY10_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a557d80768e46c07e52b68e79b9245f85"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY11_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6ab4399dffd4d837bc1c7aedc8df01ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY12_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a321d435524c9ce359d633b5b00e659f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY13_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2ebc9cd28d516436e5acaf720533842d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY14_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a684147b2e747d9ef12fc7fee45284bc0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY15_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a94e15c31c6e1f43c5c48583920f3f039"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY16_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a41b4bd5e1c812d2c0c4fc175f7416804"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY1_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a81b13a3ea9b82e96d01fb76ede373578"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY2_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5f16df0f4a3c405ce57bb25441a34f2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY3_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a743a411748a454195cd543fd3fa2e80f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY4_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad8689cd7abb93ca0f9548aa8e704f81d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY5_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac6bf8865dda1078012bb86e903034f46"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY6_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afd145bb3bbc38eae1921221e10dca955"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY7_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3ef01a4b58d93969d9e780dd1feb81b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY8_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af75dd93e24e4c14c6467cf2be42f8fd4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAESKEY9_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a83bd804449c3b53827fb334ed871c2ef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAFCBW_DEF&#160;&#160;&#160;( DCCFREQAFC | RXBWAFC )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a37446f6c54ea6ee20ae9d1490e259ae4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAFCCTRL_DEF&#160;&#160;&#160;( 0&lt;&lt;(<a class="el" href="rfm69__registers_8h.html#ad5d2eba8b4963a97848a746ba9094346">AFCLOWBETAON</a>) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3549c6f967228085201f21c160e5e24a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAFCFEI_DEF&#160;&#160;&#160;( (1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ac3f3f8de47d947af91e9b12e8a461e2c">AFCAUTOCLEAR</a>) | (1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ab65fcdba5953290d2b432eab78862c90">AFCAUTOON</a>) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adca98589141cfeb6c3e890100a20f4e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGAUTOMODES_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a059f8fd70a7d8cefa34bbf0bc0bbcaef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGBITRATELSB_DEF&#160;&#160;&#160;(  <a class="el" href="rfm69__registers_8h.html#ac1ae7970d0dcf267a7a5ca51687d97fe">BITRATE_CALC</a>(<a class="el" href="rfm69_8h.html#a17468d10f0c67a4ee7b38aab09d9e096">BITRATE</a>) &amp; 0x00ff )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0d47227ea1b41e85a8ed141f355ad32e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGBITRATEMSB_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69__registers_8h.html#ac1ae7970d0dcf267a7a5ca51687d97fe">BITRATE_CALC</a>(<a class="el" href="rfm69_8h.html#a17468d10f0c67a4ee7b38aab09d9e096">BITRATE</a>) &amp; 0xff00) &gt;&gt; 8 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a32a04d199c1544c555dee9cfe22b493c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGBROADCASTADRS_DEF&#160;&#160;&#160;( <a class="el" href="rfm69_8h.html#a294b587d460b14170d2ce3f4da9083ce">BROADCAST_ADDRESS</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a24e619d07fe3e5facc0f32f6d8b759d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGDATAMODUL_DEF&#160;&#160;&#160;( <a class="el" href="rfm69__registers_8h.html#a366d2e1ca64909f289bde16361b6fd07">PACKET_MODE</a> | <a class="el" href="rfm69_8h.html#aba3e95cbe8265fef1fe26fbad6c425e8">MODUL_TYPE</a> | <a class="el" href="rfm69__registers_8h.html#a4a70bc27906df4705fba032b0bcec59b">GAUSS_BT10</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a49498083cf536aa97ac7013559e62f80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGDIOMAPPING1_DEF&#160;&#160;&#160;( <a class="el" href="rfm69__registers_8h.html#a4f3496e7ca63e021951eb2710254afa1">DIO0MAP0</a> | <a class="el" href="rfm69__registers_8h.html#a45c774244e4f9ecc7b74c3d27c3c9e25">DIO1MAP0</a> | <a class="el" href="rfm69__registers_8h.html#a3247a01dec1629f6cb03b84784d84bbe">DIO2MAP2</a> | <a class="el" href="rfm69__registers_8h.html#af9f9c18fc5ead63d4aaa535177542834">DIO3MAP1</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa0ffae0f96a59ee7baffe72d2103b821"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGDIOMAPPING2_DEF&#160;&#160;&#160;( <a class="el" href="rfm69__registers_8h.html#a72f94132418287bf937d1d3bbd4becb4">DIO5MAP0</a> | <a class="el" href="rfm69__registers_8h.html#ac9da285bce38f36312291a81815b7f09">CLKOUT8M</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afdd474d90ee06120e80cd844389c8d73"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGFDEVLSB_DEF&#160;&#160;&#160;(  <a class="el" href="rfm69__registers_8h.html#a77666bfe5e6e90bb35003fa957f9ec6f">FDEV_CALC</a>(<a class="el" href="rfm69_8h.html#ab3a2e48ea0f22367d9d3a8ba0ba9a273">DEVIATION</a>) &amp; 0x00ff )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ace2a7039f469e7855b4308a3ed6f4a4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGFDEVMSB_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69__registers_8h.html#a77666bfe5e6e90bb35003fa957f9ec6f">FDEV_CALC</a>(<a class="el" href="rfm69_8h.html#ab3a2e48ea0f22367d9d3a8ba0ba9a273">DEVIATION</a>) &amp; 0xff00) &gt;&gt; 8 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a80f5b2e2d127d5b33010280ef26bbad3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGFIFOTHRES_DEF&#160;&#160;&#160;( 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a7500b77df8de3795a4eb235ed24c70f3">TXSTARTCOND</a> | (<a class="el" href="rfm69_8h.html#a7d44477546ebc96920125d612e718b10">FIFO_THRESHOLD</a>&amp;0x7f) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aad391d879f9a8f94ff1f6b613389eaa9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGFRFLSB_DEF&#160;&#160;&#160;(  <a class="el" href="rfm69__registers_8h.html#ae902e7a3545149f07d33ebeea9e3ba11">FRF_CALC</a>(<a class="el" href="rfm69_8h.html#a8fbc13dcb6359fcc5168550fbdc4da41">CARRIER_FREQ</a>) &amp; 0x0000ff )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa1d73304222c089ef07081fe2481ebf7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGFRFMID_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69__registers_8h.html#ae902e7a3545149f07d33ebeea9e3ba11">FRF_CALC</a>(<a class="el" href="rfm69_8h.html#a8fbc13dcb6359fcc5168550fbdc4da41">CARRIER_FREQ</a>) &amp; 0x00ff00) &gt;&gt; 8 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1c20d269c21c060a659e69102a6d095c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGFRFMSB_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69__registers_8h.html#ae902e7a3545149f07d33ebeea9e3ba11">FRF_CALC</a>(<a class="el" href="rfm69_8h.html#a8fbc13dcb6359fcc5168550fbdc4da41">CARRIER_FREQ</a>) &amp; 0xff0000) &gt;&gt; 16 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac466d41919e6f9a9abb07dee89e5e509"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGLISTEN1_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a744e206075b979d38857e336efefa838"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGLISTEN2_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a10ca27af91cffe9a96dc6059cde3af76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGLISTEN3_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab155c7ec3074d618035101f097a0d734"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGLNA_DEF&#160;&#160;&#160;( 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a95610ecbca4757054e9becc0f6da8001">LNAZIN</a> | <a class="el" href="rfm69__registers_8h.html#a49a78405e3eb02eaf9ffc105a608f478">LNAGAIN_AUTO</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="acf240a368a432961a78b49c8929d9cf8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGNODEADRS_DEF&#160;&#160;&#160;( <a class="el" href="rfm69_8h.html#a4bc8a54deffcad2b8b0818b86247312a">RX_ADDRESS</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a37f49e9dab08064c9bbbd9adadcc7206"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGOCP_DEF&#160;&#160;&#160;( 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a241fa810dd7c750734cf4d02893a8aaf">OCPON</a>	| (<a class="el" href="rfm69__registers_8h.html#aedcc657b574a4c9f7956f94ad2e65d4a">OCP_CURRENT_CALC</a>(<a class="el" href="rfm69_8h.html#aa1aa4d62860693257a8a3e23774063f7">OCP_CURRENT</a>)) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae85fcceb41012504b3939be585b76646"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGOOKAVG_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8b5a4d8e8e8842be6c606481af7c691d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGOOKFIX_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4b4a58302244d924e5fe1c0fa676b143"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGOOKPEAK_DEF&#160;&#160;&#160;( 0x00 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa481f70837b530fa4f47a97a39e99315"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGOPMODE_DEF&#160;&#160;&#160;( 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ad34e500db60585f5c256b04bd898ebba">SEQUENCEROFF</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ac873ed4655b1b8770ef2994e5c02c5d7">LISTENON</a> | <a class="el" href="rfm69__registers_8h.html#a6097218fc13c9936e96507d6fd9fafe0">SLEEP_MODE</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4edc7c51a6b7019f02aaac0153cfe291"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGPACKETCONFIG1_DEF&#160;&#160;&#160;( 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a5db0212961ff5494d1c9d6efdcf03730">PACKETFORMAT</a> | <a class="el" href="rfm69__registers_8h.html#a15df7bdfa2cb6787bd141aefc0f93e12">ENCODING_OFF</a> | 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a73c706d20d14f72e4864392b4bad9799">CRCON</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ad5bfb4aedaab8eef409e4e7838caa375">CRCAUTOCLEAROFF</a> | <a class="el" href="rfm69__registers_8h.html#ab3f7692a1ea401ba18ca18246ebef425">NODE_BROADCAST_ADDR</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8b312d3af71aabaa16ac6bccd20e56c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGPACKETCONFIG2_DEF&#160;&#160;&#160;( <a class="el" href="rfm69__table_8h.html#aa2f9059f987d6088a0b77a2af76e3ab2">INTERPACKETRXDELAY</a> | 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a2056d2ccf745e838f1436ce70d8e81ff">AUTORXRESTARTON</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a329c471460a05db1a3cfb2c357465529">AESON</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4a6fb558c267560bca4250e1c3b7f099"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGPALEVEL_DEF&#160;&#160;&#160;( 1&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a1349892a7adac828df5ab3a395e557e0">PA0ON</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#a0048b53a5557ee80b7792fde9f976ba5">PA1ON</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ae5a87eb57ec917fd5b5fe4083875e19a">PA2ON</a> | (<a class="el" href="rfm69__registers_8h.html#acb5c8c4439d716b93a8d4767ac398e60">OUT_POWER_CALC</a>(<a class="el" href="rfm69_8h.html#a23ecfe0a45f0d87427cf40cd95789f27">OUTPUT_POWER</a>)) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6bbce267488fbde0e103bd7895425a48"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGPARAMP_DEF&#160;&#160;&#160;( <a class="el" href="rfm69__table_8h.html#ab1c78669a770ddfb58e99c063225f32f">PARAMP</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac435942286d0fbaa4a2348b1d6b03149"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGPAYLOADLENGHT_DEF&#160;&#160;&#160;( 0xff )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a36c1e97cbe8818ea8ce402f81c3e426f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGPREAMBLELSB_DEF&#160;&#160;&#160;( <a class="el" href="rfm69_8h.html#a8aac8c5098aaf915463fb31715efa09f">PREAMBLE</a> &amp; 0x00ff )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a41db30e231f76a5d2d04fb9464682221"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGPREAMBLEMSB_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a8aac8c5098aaf915463fb31715efa09f">PREAMBLE</a> &amp; 0xff00) &gt;&gt; 8 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a88592234f9104d00e24fb7cb02ffddb3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGRSSITHRESH_DEF&#160;&#160;&#160;( <a class="el" href="rfm69__registers_8h.html#aab1351f68c4bd1865fae376734674afd">RSSI_THRESH_CALC</a>(<a class="el" href="rfm69_8h.html#a8c6750b0738c6a321a0253280aea73cd">RSSI_THRESH</a>) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae21147f19d0a85394abdb4cdf6d6f099"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGRXBW_DEF&#160;&#160;&#160;( DCCFREQ | <a class="el" href="rfm69__table_8h.html#ade419dfc07a685580dd336aa324f17ad">RXBW</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad45d749cfbd080b1ade430d184259665"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGSYNCCONFIG_DEF&#160;&#160;&#160;( <a class="el" href="rfm69__registers_8h.html#ae106483494497c8026ab22e1ef8fcdf6">SYNC_WORD_ON</a> | 0&lt;&lt;<a class="el" href="rfm69__registers_8h.html#ad5136933340ac95954fc304b58fc005c">FIFOFILLCOND</a> | <a class="el" href="rfm69__registers_8h.html#acd179fc969c2f0e41b6bd5e1aa7906f1">SYNCSIZE_CALC</a>(<a class="el" href="rfm69_8h.html#a1d00740963c7c134022150ed22a0b4d6">SYNC_WORD_SIZE</a>) | (<a class="el" href="rfm69_8h.html#ab5ef4e3b214d51b79955ceae88e5c4d6">SYNCTOL</a>&amp;0x07) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abb8b6a0817157e19c1459b528609bef6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGSYNCVALUE1_DEF&#160;&#160;&#160;(  <a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x00000000000000ff )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5938c1eed62833fd33833926b605daad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGSYNCVALUE2_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x000000000000ff00) &gt;&gt; 8 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3e4146486356d6d599ac7ab25367edf2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGSYNCVALUE3_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x0000000000ff0000) &gt;&gt; 16 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2cc875d0068b61df3a073cda2e3f92c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGSYNCVALUE4_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x00000000ff000000) &gt;&gt; 24 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae75d99c6b7e350e913fadad0ba291f8b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGSYNCVALUE5_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x000000ff00000000) &gt;&gt; 32 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a621156521341eaef210ff6b989b558e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGSYNCVALUE6_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x0000ff0000000000) &gt;&gt; 40 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4964b030f4dcb285357b3b2e14f6a846"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGSYNCVALUE7_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0x00ff000000000000) &gt;&gt; 48 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0a73edb0344f2832c428d70efc4c93b2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define REGSYNCVALUE8_DEF&#160;&#160;&#160;( (<a class="el" href="rfm69_8h.html#a3e9af6b370e370158949ba1f4d064a38">SYNC_WORD</a> &amp; 0xff00000000000000) &gt;&gt; 56 )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afd27d3134ce6a92819d177152bc875b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RFM69_BUFFER_SIZE&#160;&#160;&#160;66</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="add1b7df122f5f0dc96eb8dfd3d0a80ff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RFM69_SYNCADDR_PERIOD&#160;&#160;&#160;<a class="el" href="rfm69_8h.html#a8aac8c5098aaf915463fb31715efa09f">PREAMBLE</a> + <a class="el" href="rfm69_8h.html#a1d00740963c7c134022150ed22a0b4d6">SYNC_WORD_SIZE</a> + 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a661d641b8772cd476fc8c565e5811c65"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RISE_FALL_TIME_FSK&#160;&#160;&#160;50</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8c6750b0738c6a321a0253280aea73cd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RSSI_THRESH&#160;&#160;&#160;88</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4bc8a54deffcad2b8b0818b86247312a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RX_ADDRESS&#160;&#160;&#160;0x05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a4a4e7a01439b700bd3a6becd6dd122e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RX_BW&#160;&#160;&#160;65</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa8796d662eb191d6f49e303b9be80e50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define RX_BW_AFC&#160;&#160;&#160;130</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3e9af6b370e370158949ba1f4d064a38"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SYNC_WORD&#160;&#160;&#160;0x753be1ca753be1ca</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a1d00740963c7c134022150ed22a0b4d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SYNC_WORD_SIZE&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab9e0536e23e13affa9c84d6f6259172d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SyncAddr_Line&#160;&#160;&#160;EXTI_Line0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab5ef4e3b214d51b79955ceae88e5c4d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SYNCTOL&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Перечисления</h2>
+<a class="anchor" id="a06fc87d81c62e9abb8790b6e5713c55b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a class="anchor" id="a06fc87d81c62e9abb8790b6e5713c55ba100341cd68397fd697b86439b4aca9ed"></a>RFM69_SPI_FAILED&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a06fc87d81c62e9abb8790b6e5713c55ba0f464bbbdc9e2e6795f713e194521c3d"></a>RFM69_SLEEP&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a06fc87d81c62e9abb8790b6e5713c55bace14731600372a2f328a5cd727570fbc"></a>RFM69_STBY&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a06fc87d81c62e9abb8790b6e5713c55ba778608da6788aae63668b8511bba32a1"></a>RFM69_RX&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a06fc87d81c62e9abb8790b6e5713c55ba289aded594cf744abe36d6126736a06e"></a>RFM69_TX&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a06fc87d81c62e9abb8790b6e5713c55badc0a15b8d6e072ff02e1e89e35a73226"></a>RFM69_NEW_PACK&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Функции</h2>
+<a class="anchor" id="a676f160363c34f0bf2638dded13638d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rfm69_clear_fifo </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afc9264ee91effa67d4c368944cd2f8a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int rfm69_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afc18010357577c61751d565f276ec047"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rfm69_mcu_init </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ad2ff4e053c9b555d2192ba3f9af9f5f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t rfm69_read </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaf29915020979cbcb1543723e0d1ad09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rfm69_read_burst </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ndata</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac20aaa7a3c508b5086719841909aa059"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int rfm69_receive_small_packet </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3c042a6544571244615b711a6e7550c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rfm69_receive_start </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a91f032713bffeee705aeff45e4e8ecbc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rfm69_sleep </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a76b7b034cdcbc1d12611ad48a3cfe623"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rfm69_stby </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a13883b87b275d312974ef052cdccef86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int rfm69_transmit_start </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>packet_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a14af22393b087d109032f1cf718def90"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rfm69_write </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af8adfd3a25fb7fd945fe54b25584f391"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rfm69_write_burst </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>ndata</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по RFM69. Последние изменения: Сб 31 Янв 2015 11:51:14. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>
