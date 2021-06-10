@@ -7,6 +7,7 @@
 
 /** @file rfm69_registers.h @brief
 	Тут хранятся все необходимые макросы для регистров радиомодуля.
+ @author Михаил Белкин (dltech174@gmail.com) 
 */
  
 /// @cond

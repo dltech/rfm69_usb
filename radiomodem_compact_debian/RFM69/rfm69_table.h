@@ -3,6 +3,7 @@
 
 /** @file rfm69_table.h @brief
 	Тут находятся таблицы для расчета необходимых параметров.
+ @author Михаил Белкин (dltech174@gmail.com) 
 */ 
 
 // table for	REGPARAMP			0x12
