@@ -1560,3 +1560,60 @@
 	"usb_pwr.h"
 	"hw_config.h"
 
+1553643627 source:/home/dltech/src/rfm69_usb/radiomodem_compact_debian/leds/led_byte.c
+	"stm32f10x_conf.h"
+	"leds/led_byte.h"
+
+1553643958 /home/dltech/src/rfm69_usb/radiomodem_compact_debian//stm32f10x_conf.h
+	"stm32f10x_exti.h"
+	"stm32f10x_gpio.h"
+	"stm32f10x_pwr.h"
+	"stm32f10x_rcc.h"
+	"stm32f10x_spi.h"
+	"stm32f10x_tim.h"
+	"misc.h"
+
+1553644246 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h
+	"stm32f10x.h"
+
+1553644984 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/stm32f10x.h
+	"core_cm3.h"
+	"system_stm32f10x.h"
+	<stdint.h>
+	"stm32f10x_conf.h"
+
+1553644854 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cm3.h
+	<stdint.h>
+	<core_cmInstr.h>
+	<core_cmFunc.h>
+
+1553644560 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmInstr.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1553644541 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/CoreSupport/core_cmFunc.h
+	<cmsis_iar.h>
+	<cmsis_ccs.h>
+
+1553643785 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/CMSIS/CM3/DeviceSupport/ST/STM32F10x/system_stm32f10x.h
+
+1553644621 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h
+	"stm32f10x.h"
+
+1553644024 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h
+	"stm32f10x.h"
+
+1553644696 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h
+	"stm32f10x.h"
+
+1553644575 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h
+	"stm32f10x.h"
+
+1553644793 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h
+	"stm32f10x.h"
+
+1553644356 /home/dltech/src/rfm69_usb/radiomodem_compact_debian/STM32F10x_StdPeriph_Lib_V3.5.0/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h
+	"stm32f10x.h"
+
+1553643541 /home/dltech/src/rfm69_usb/radiomodem_compact_debian//leds/led_byte.h
+

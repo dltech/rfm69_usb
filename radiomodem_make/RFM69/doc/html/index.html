@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>RFM69: Титульная страница</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">RFM69
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li class="current"><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Элементы перечислений</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Макросы</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">RFM69 Документация</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p>Библиотека осуществляет пакетную передачу данных с помощью радиомодулей RFM69CW.</p>
+<p>Для её использования необходимо подключить файл <a class="el" href="rfm69_8h.html" title="В этом файле содержатся настройки радиомодуля, некоторые макросы для конфигурации микроконтроллера и ...">rfm69.h</a> и вызвать функцию <a class="el" href="rfm69_8c.html#afc9264ee91effa67d4c368944cd2f8a3">rfm69_init()</a>. После чего можно отправлять данные с помощью функции <a class="el" href="rfm69_8c.html#a3141c4360d11844a68888053a7173c2a">rfm69_transmit_start()</a>, а также принимать данные. Обработка принятых пакетов осуществляется автоматически, вам достаточно отслеживать состояние переменной <a class="el" href="rfm69_8c.html#a7f29a961561c7582c38f9a09d859f0a3">rfm69_condition</a>. Если ее значение равно <a class="el" href="rfm69_8h.html#a06fc87d81c62e9abb8790b6e5713c55badc0a15b8d6e072ff02e1e89e35a73226">RFM69_NEW_PACK</a>, значит пакет был успешно принят, далее можно запустить функцию <a class="el" href="rfm69_8c.html#a3c042a6544571244615b711a6e7550c7">rfm69_receive_start()</a> для приема следующего пакета по радиоканалу. При этом после осуществления передачи пакета приемник включается автоматически. Пакет находится в глобальном массиве <a class="el" href="rfm69_8c.html#a1b13c9016be35fac29e6d4ed95785a74">packet_buffer</a>[], а его размер в глобальной переменной <a class="el" href="rfm69_8c.html#aee3ef59ff651fe7e6a9c273affdd5d5a">packet_size</a>. Настройки радиомодуля задаются макросами и находятся в файле <a class="el" href="rfm69_8h.html" title="В этом файле содержатся настройки радиомодуля, некоторые макросы для конфигурации микроконтроллера и ...">rfm69.h</a>. </p>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Документация по RFM69. Последние изменения: Вс 1 Фев 2015 01:42:44. Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>
