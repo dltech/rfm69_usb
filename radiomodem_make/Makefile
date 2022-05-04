@@ -102,7 +102,7 @@ $(ODIR)/%.o: %.c
 	@$(CC) $(CFLAGS) $(INCLUDES)  -c $< -o $@
 #compile startup
 $(ODIR)/%.o: %.s
-	@echo "[CC] $@"
+	@echo "[AS] $@"
 	@mkdir -p $(dir $@)
 	@$(CC) $(CFLAGS) $(INCLUDES)  -c $< -o $@
 

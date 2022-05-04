@@ -1,9 +1,7 @@
 *cache*
 *.o
 *.d
-*.ld
-*.bin
-*.elf
 *bak
+Debug
 core
 
